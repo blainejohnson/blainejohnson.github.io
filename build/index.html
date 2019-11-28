@@ -1,0 +1,1495 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>build.OMG | Scaling Ethereum with the OMG Network</title><link rel="dns-prefetch" href="https://blainejohnson.github.io"><link rel="dns-prefetch" href="//s.w.org"><link rel="stylesheet" id="wp-block-library-css" href="https://blainejohnson.github.io/wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all"><link rel="stylesheet" id="wp-block-library-theme-css" href="https://blainejohnson.github.io/wp-includes/css/dist/block-library/theme.min.css" type="text/css" media="all"><link rel="stylesheet" id="dashicons-css" href="https://blainejohnson.github.io/wp-includes/css/dashicons.min.css" type="text/css" media="all"><link rel="stylesheet" id="uaf_client_css-css" href="https://blainejohnson.github.io/wp-content/uploads/useanyfont/uaf.css" type="text/css" media="all"><link rel="stylesheet" id="x-stack-css" href="https://blainejohnson.github.io/wp-content/themes/pro/framework/dist/css/site/stacks/integrity-light.css" type="text/css" media="all"><link rel="stylesheet" id="x-child-css" href="https://blainejohnson.github.io/wp-content/themes/pro-child/style.css" type="text/css" media="all"><script type="text/javascript" src="https://blainejohnson.github.io/wp-includes/js/jquery/jquery.js"></script><script type="text/javascript" src="https://blainejohnson.github.io/wp-includes/js/jquery/jquery-migrate.min.js"></script><meta property="og:site_name" content="Scaling Ethereum with the OMG Network"><meta property="og:title" content="build.OMG"><meta property="og:description" content="Scaling Ethereum with the OMG Network"><meta property="og:image" content="https://82bf384f-9a42-4353-93e5-5c8ec3c7c7a3.app.getshifter.io:44432/wp-content/uploads/2019/09/omisego-card.jpeg"><meta property="og:url" content="https://blainejohnson.github.io/build/"><meta property="og:type" content="article"><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-T9V2SR9');</script><link rel="icon" href="https://blainejohnson.github.io/wp-content/uploads/2019/09/cropped-omisego-favicon-1-32x32.png" sizes="32x32"><link rel="icon" href="https://blainejohnson.github.io/wp-content/uploads/2019/09/cropped-omisego-favicon-1-192x192.png" sizes="192x192"><link rel="apple-touch-icon-precomposed" href="https://blainejohnson.github.io/wp-content/uploads/2019/09/cropped-omisego-favicon-1-180x180.png"><meta name="msapplication-TileImage" content="https://blainejohnson.github.io/wp-content/uploads/2019/09/cropped-omisego-favicon-1-270x270.png"><style id="x-generated-css">a,h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h5 a:hover,h6 a:hover,.x-breadcrumb-wrap a:hover,.widget ul li a:hover,.widget ol li a:hover,.widget.widget_text ul li a,.widget.widget_text ol li a,.widget_nav_menu .current-menu-item > a,.x-accordion-heading .x-accordion-toggle:hover,.x-comment-author a:hover,.x-comment-time:hover,.x-recent-posts a:hover .h-recent-posts{color:rgb(26,115,249);}a:hover,.widget.widget_text ul li a:hover,.widget.widget_text ol li a:hover,.x-twitter-widget ul li a:hover{color:rgb(26,86,240);}.rev_slider_wrapper,a.x-img-thumbnail:hover,.x-slider-container.below,.page-template-template-blank-3-php .x-slider-container.above,.page-template-template-blank-6-php .x-slider-container.above{border-color:rgb(26,115,249);}.entry-thumb:before,.x-pagination span.current,.flex-direction-nav a,.flex-control-nav a:hover,.flex-control-nav a.flex-active,.mejs-time-current,.x-dropcap,.x-skill-bar .bar,.x-pricing-column.featured h2,.h-comments-title small,.x-entry-share .x-share:hover,.x-highlight,.x-recent-posts .x-recent-posts-img:after{background-color:rgb(26,115,249);}.x-nav-tabs > .active > a,.x-nav-tabs > .active > a:hover{box-shadow:inset 0 3px 0 0 rgb(26,115,249);}.x-main{width:69.536945%;}.x-sidebar{width:25.536945%;}.x-comment-author,.x-comment-time,.comment-form-author label,.comment-form-email label,.comment-form-url label,.comment-form-rating label,.comment-form-comment label,.widget_calendar #wp-calendar caption,.widget.widget_rss li .rsswidget{font-family:"circularstd-black";font-weight:400;}.p-landmark-sub,.p-meta,input,button,select,textarea{font-family:"Gothic A1",sans-serif;}.widget ul li a,.widget ol li a,.x-comment-time{color:rgb(8,11,15);}.widget_text ol li a,.widget_text ul li a{color:rgb(26,115,249);}.widget_text ol li a:hover,.widget_text ul li a:hover{color:rgb(26,86,240);}.comment-form-author label,.comment-form-email label,.comment-form-url label,.comment-form-rating label,.comment-form-comment label,.widget_calendar #wp-calendar th,.p-landmark-sub strong,.widget_tag_cloud .tagcloud a:hover,.widget_tag_cloud .tagcloud a:active,.entry-footer a:hover,.entry-footer a:active,.x-breadcrumbs .current,.x-comment-author,.x-comment-author a{color:rgb(4,7,13);}.widget_calendar #wp-calendar th{border-color:rgb(4,7,13);}.h-feature-headline span i{background-color:rgb(4,7,13);}@media (max-width:979px){}html{font-size:14px;}@media (min-width:480px){html{font-size:14px;}}@media (min-width:767px){html{font-size:14px;}}@media (min-width:979px){html{font-size:14px;}}@media (min-width:1200px){html{font-size:14px;}}body{font-style:normal;font-weight:400;color:rgb(8,11,15);background-color:rgb(255,255,255);}.w-b{font-weight:400 !important;}h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{font-family:"circularstd-black";font-style:normal;font-weight:400;}h1,.h1{letter-spacing:-0.035em;}h2,.h2{letter-spacing:-0.035em;}h3,.h3{letter-spacing:-0.035em;}h4,.h4{letter-spacing:-0.035em;}h5,.h5{letter-spacing:-0.035em;}h6,.h6{letter-spacing:-0.035em;}.w-h{font-weight:400 !important;}.x-container.width{width:85%;}.x-container.max{max-width:1200px;}.x-main.full{float:none;display:block;width:auto;}@media (max-width:979px){.x-main.full,.x-main.left,.x-main.right,.x-sidebar.left,.x-sidebar.right{float:none;display:block;width:auto !important;}}.entry-header,.entry-content{font-size:1rem;}body,input,button,select,textarea{font-family:"Gothic A1",sans-serif;}h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6,h1 a,h2 a,h3 a,h4 a,h5 a,h6 a,.h1 a,.h2 a,.h3 a,.h4 a,.h5 a,.h6 a,blockquote{color:rgb(4,7,13);}.cfc-h-tx{color:rgb(4,7,13) !important;}.cfc-h-bd{border-color:rgb(4,7,13) !important;}.cfc-h-bg{background-color:rgb(4,7,13) !important;}.cfc-b-tx{color:rgb(8,11,15) !important;}.cfc-b-bd{border-color:rgb(8,11,15) !important;}.cfc-b-bg{background-color:rgb(8,11,15) !important;}.x-btn,.button,[type="submit"]{color:#ffffff;border-color:rgb(26,86,240);background-color:rgb(26,86,240);text-shadow:0 0.075em 0.075em rgba(0,0,0,0.5);border-radius:0.25em;}.x-btn:hover,.button:hover,[type="submit"]:hover{color:#ffffff;border-color:rgb(26,86,240);background-color:rgb(26,86,240);text-shadow:0 0.075em 0.075em rgba(0,0,0,0.5);}.x-btn.x-btn-real,.x-btn.x-btn-real:hover{margin-bottom:0.25em;text-shadow:0 0.075em 0.075em rgba(0,0,0,0.65);}.x-btn.x-btn-real{box-shadow:0 0.25em 0 0 rgb(26,115,249),0 4px 9px rgba(0,0,0,0.75);}.x-btn.x-btn-real:hover{box-shadow:0 0.25em 0 0 rgb(26,115,249),0 4px 9px rgba(0,0,0,0.75);}.x-btn.x-btn-flat,.x-btn.x-btn-flat:hover{margin-bottom:0;text-shadow:0 0.075em 0.075em rgba(0,0,0,0.65);box-shadow:none;}.x-btn.x-btn-transparent,.x-btn.x-btn-transparent:hover{margin-bottom:0;border-width:3px;text-shadow:none;text-transform:uppercase;background-color:transparent;box-shadow:none;}.h-widget:before,.x-flickr-widget .h-widget:before,.x-dribbble-widget .h-widget:before{position:relative;font-weight:normal;font-style:normal;line-height:1;text-decoration:inherit;-webkit-font-smoothing:antialiased;speak:none;}.h-widget:before{padding-right:0.4em;font-family:"fontawesome";}.x-flickr-widget .h-widget:before,.x-dribbble-widget .h-widget:before{top:0.025em;padding-right:0.35em;font-family:"foundationsocial";font-size:0.785em;}.widget_archive .h-widget:before{content:"\f303";top:-0.045em;font-size:0.925em;}.widget_calendar .h-widget:before{content:"\f073";top:-0.0825em;font-size:0.85em;}.widget_categories .h-widget:before,.widget_product_categories .h-widget:before{content:"\f02e";font-size:0.95em;}.widget_nav_menu .h-widget:before,.widget_layered_nav .h-widget:before{content:"\f0c9";}.widget_meta .h-widget:before{content:"\f0fe";top:-0.065em;font-size:0.895em;}.widget_pages .h-widget:before{font-family:"FontAwesomeRegular";content:"\f15c";top:-0.065em;font-size:0.85em;}.widget_recent_reviews .h-widget:before,.widget_recent_comments .h-widget:before{content:"\f086";top:-0.065em;font-size:0.895em;}.widget_recent_entries .h-widget:before{content:"\f02d";top:-0.045em;font-size:0.875em;}.widget_rss .h-widget:before{content:"\f09e";padding-right:0.2em;}.widget_search .h-widget:before,.widget_product_search .h-widget:before{content:"\f0a4";top:-0.075em;font-size:0.85em;}.widget_tag_cloud .h-widget:before,.widget_product_tag_cloud .h-widget:before{content:"\f02c";font-size:0.925em;}.widget_text .h-widget:before{content:"\f054";padding-right:0.4em;font-size:0.925em;}.x-dribbble-widget .h-widget:before{content:"\f009";}.x-flickr-widget .h-widget:before{content:"\f010";padding-right:0.35em;}.widget_best_sellers .h-widget:before{content:"\f091";top:-0.0975em;font-size:0.815em;}.widget_shopping_cart .h-widget:before{content:"\f07a";top:-0.05em;font-size:0.945em;}.widget_products .h-widget:before{content:"\f0f2";top:-0.05em;font-size:0.945em;}.widget_featured_products .h-widget:before{content:"\f0a3";}.widget_layered_nav_filters .h-widget:before{content:"\f046";top:1px;}.widget_onsale .h-widget:before{content:"\f02b";font-size:0.925em;}.widget_price_filter .h-widget:before{content:"\f0d6";font-size:1.025em;}.widget_random_products .h-widget:before{content:"\f074";font-size:0.925em;}.widget_recently_viewed_products .h-widget:before{content:"\f06e";}.widget_recent_products .h-widget:before{content:"\f08d";top:-0.035em;font-size:0.9em;}.widget_top_rated_products .h-widget:before{content:"\f075";top:-0.145em;font-size:0.885em;}@font-face{font-family:'FontAwesomePro';font-style:normal;font-weight:900;font-display:block;src:url('https://blainejohnson.github.io/wp-content/themes/pro/cornerstone/assets/dist/fonts/fa-solid-900.woff2') format('woff2'),url('https://blainejohnson.github.io/wp-content/themes/pro/cornerstone/assets/dist/fonts/fa-solid-900.woff') format('woff'),url('https://blainejohnson.github.io/wp-content/themes/pro/cornerstone/assets/dist/fonts/fa-solid-900.ttf') format('truetype');}[data-x-fa-pro-icon]{font-family:"FontAwesomePro" !important;}[data-x-fa-pro-icon]:before{content:attr(data-x-fa-pro-icon);}[data-x-icon],[data-x-icon-o],[data-x-icon-l],[data-x-icon-s],[data-x-icon-b],[data-x-fa-pro-icon],[class*="cs-fa-"]{display:inline-block;font-style:normal;font-weight:400;text-decoration:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}[data-x-icon].left,[data-x-icon-o].left,[data-x-icon-l].left,[data-x-icon-s].left,[data-x-icon-b].left,[data-x-fa-pro-icon].left,[class*="cs-fa-"].left{margin-right:0.5em;}[data-x-icon].right,[data-x-icon-o].right,[data-x-icon-l].right,[data-x-icon-s].right,[data-x-icon-b].right,[data-x-fa-pro-icon].right,[class*="cs-fa-"].right{margin-left:0.5em;}[data-x-icon]:before,[data-x-icon-o]:before,[data-x-icon-l]:before,[data-x-icon-s]:before,[data-x-icon-b]:before,[data-x-fa-pro-icon]:before,[class*="cs-fa-"]:before{line-height:1;}@font-face{font-family:'FontAwesome';font-style:normal;font-weight:900;font-display:block;src:url('https://blainejohnson.github.io/wp-content/themes/pro/cornerstone/assets/dist/fonts/fa-solid-900.woff2') format('woff2'),url('https://blainejohnson.github.io/wp-content/themes/pro/cornerstone/assets/dist/fonts/fa-solid-900.woff') format('woff'),url('https://blainejohnson.github.io/wp-content/themes/pro/cornerstone/assets/dist/fonts/fa-solid-900.ttf') format('truetype');}[data-x-icon],[data-x-icon-s],[data-x-icon][class*="cs-fa-"]{font-family:"FontAwesome" !important;font-weight:900;}[data-x-icon]:before,[data-x-icon][class*="cs-fa-"]:before{content:attr(data-x-icon);}[data-x-icon-s]:before{content:attr(data-x-icon-s);}@font-face{font-family:'FontAwesomeRegular';font-style:normal;font-weight:400;font-display:block;src:url('https://blainejohnson.github.io/wp-content/themes/pro/cornerstone/assets/dist/fonts/fa-regular-400.woff2') format('woff2'),url('https://blainejohnson.github.io/wp-content/themes/pro/cornerstone/assets/dist/fonts/fa-regular-400.woff') format('woff'),url('https://blainejohnson.github.io/wp-content/themes/pro/cornerstone/assets/dist/fonts/fa-regular-400.ttf') format('truetype');}@font-face{font-family:'FontAwesomePro';font-style:normal;font-weight:400;font-display:block;src:url('https://blainejohnson.github.io/wp-content/themes/pro/cornerstone/assets/dist/fonts/fa-regular-400.woff2') format('woff2'),url('https://blainejohnson.github.io/wp-content/themes/pro/cornerstone/assets/dist/fonts/fa-regular-400.woff') format('woff'),url('https://blainejohnson.github.io/wp-content/themes/pro/cornerstone/assets/dist/fonts/fa-regular-400.ttf') format('truetype');}[data-x-icon-o]{font-family:"FontAwesomeRegular" !important;}[data-x-icon-o]:before{content:attr(data-x-icon-o);}@font-face{font-family:'FontAwesomeLight';font-style:normal;font-weight:300;font-display:block;src:url('https://blainejohnson.github.io/wp-content/themes/pro/cornerstone/assets/dist/fonts/fa-light-300.woff2') format('woff2'),url('https://blainejohnson.github.io/wp-content/themes/pro/cornerstone/assets/dist/fonts/fa-light-300.woff') format('woff'),url('https://blainejohnson.github.io/wp-content/themes/pro/cornerstone/assets/dist/fonts/fa-light-300.ttf') format('truetype');}@font-face{font-family:'FontAwesomePro';font-style:normal;font-weight:300;font-display:block;src:url('https://blainejohnson.github.io/wp-content/themes/pro/cornerstone/assets/dist/fonts/fa-light-300.woff2') format('woff2'),url('https://blainejohnson.github.io/wp-content/themes/pro/cornerstone/assets/dist/fonts/fa-light-300.woff') format('woff'),url('https://blainejohnson.github.io/wp-content/themes/pro/cornerstone/assets/dist/fonts/fa-light-300.ttf') format('truetype');}[data-x-icon-l]{font-family:"FontAwesomeLight" !important;font-weight:300;}[data-x-icon-l]:before{content:attr(data-x-icon-l);}@font-face{font-family:'FontAwesomeBrands';font-style:normal;font-weight:normal;font-display:block;src:url('https://blainejohnson.github.io/wp-content/themes/pro/cornerstone/assets/dist/fonts/fa-brands-400.woff2') format('woff2'),url('https://blainejohnson.github.io/wp-content/themes/pro/cornerstone/assets/dist/fonts/fa-brands-400.woff') format('woff'),url('https://blainejohnson.github.io/wp-content/themes/pro/cornerstone/assets/dist/fonts/fa-brands-400.ttf') format('truetype');}[data-x-icon-b]{font-family:"FontAwesomeBrands" !important;}[data-x-icon-b]:before{content:attr(data-x-icon-b);}.e210-1.x-bar {width:calc(100% - (0px * 2));margin-top:0px;margin-left:0px;margin-right:0px;height:75px;font-size:16px;background-color:rgba(255,255,255,0);z-index:9999;}.e210-15.x-bar {width:calc(100% - (0px * 2));height:75px;border-width:1px 0px 2px 0px;border-style:dotted none solid none;border-color:rgb(24,79,227) rgb(4,7,13) #ececec rgb(4,7,13);font-size:16px;background-color:rgb(244,246,245);z-index:9999;}.e210-10.x-bar {height:75px;font-size:16px;background-color:rgba(255,255,255,0);z-index:9999;}.e210-1.x-bar-content {flex-direction:row;justify-content:flex-start;align-items:center;flex:0 1 85%;height:75px;max-width:1200px;}.e210-10.x-bar-content {flex-direction:row;justify-content:flex-start;align-items:center;flex:0 1 85%;height:75px;max-width:1100px;}.e210-15.x-bar-content {flex-direction:row;justify-content:flex-start;align-items:center;flex:0 1 85%;height:75px;max-width:1200px;}.e210-1.x-bar-outer-spacers:before,.e210-1.x-bar-outer-spacers:after {flex-basis:2rem;width:2rem;height:2rem;}.e210-10.x-bar-outer-spacers:before,.e210-10.x-bar-outer-spacers:after {flex-basis:2rem;width:2rem;height:2rem;}.e210-15.x-bar-outer-spacers:before,.e210-15.x-bar-outer-spacers:after {flex-basis:2rem;width:2rem;height:2rem;}.e210-1.x-bar-space {font-size:16px;height:75px;}.e210-10.x-bar-space {font-size:16px;height:75px;}.e210-15.x-bar-space {font-size:16px;height:75px;}.e210-2.x-bar-container {flex-direction:row;justify-content:flex-start;align-items:center;flex:1 0 0%;background-color:rgba(255,255,255,0);}.e210-6.x-bar-container {flex-direction:row;justify-content:space-between;align-items:center;flex:0 1 auto;background-color:transparent;}.e210-8.x-bar-container {flex-direction:row;justify-content:space-between;align-items:center;flex:0 1 auto;background-color:transparent;}.e210-11.x-bar-container {flex-direction:row;justify-content:space-between;align-items:center;flex:1 0 0%;background-color:rgba(255,255,255,0);}.e210-16.x-bar-container {flex-direction:row;justify-content:space-between;align-items:center;flex:0 1 auto;background-color:transparent;}.e210-18.x-bar-container {flex-direction:row;justify-content:space-between;align-items:center;flex:1 0 0%;background-color:transparent;}.e210-22.x-bar-container {flex-direction:row;justify-content:space-between;align-items:center;flex:0 1 auto;background-color:transparent;}.e210-7.x-text {margin:0em;padding:0em;font-size:1em;background-color:rgba(255,255,255,0);}.e210-13.x-text {margin:0em;padding:0em;font-size:1em;background-color:rgba(255,255,255,0);}.e210-7.x-text .x-text-content {flex-direction:row-reverse;justify-content:center;align-items:center;flex-wrap:wrap;align-content:center;}.e210-13.x-text .x-text-content {flex-direction:row-reverse;justify-content:center;align-items:center;flex-wrap:wrap;align-content:center;}.e210-7.x-text .x-text-content-text-primary {margin:0 calc(0em * -1) 0 0;font-family:"Source Code Pro",monospace;font-size:0.85em;font-style:normal;font-weight:400;line-height:1;letter-spacing:0em;text-align:right;text-transform:lowercase;color:rgb(255,255,255);}.e210-13.x-text .x-text-content-text-primary {margin:0 calc(0em * -1) 0 0;font-family:"Source Code Pro",monospace;font-size:.75em;font-style:normal;font-weight:400;line-height:1;letter-spacing:0em;text-align:right;text-transform:none;color:rgb(255,255,255);}.e210-7.x-text .x-text-typing {color:rgb(255,255,255);}.e210-13.x-text .x-text-typing {color:rgb(255,255,255);}.e210-7.x-text .typed-cursor {color:rgb(255,255,255);}.e210-13.x-text .typed-cursor {color:rgb(255,255,255);}.e210-7.x-text .x-text-content-text-subheadline {margin:0 calc(0em * -1) 0.35em 0;font-family:"Source Code Pro",monospace;font-size:0.90em;font-style:normal;font-weight:400;line-height:1;letter-spacing:0em;text-align:right;text-transform:uppercase;color:rgb(255,255,255);}.e210-13.x-text .x-text-content-text-subheadline {margin:0 calc(0em * -1) 0.35em 0;font-family:"Source Code Pro",monospace;font-size:.75em;font-style:normal;font-weight:400;line-height:1;letter-spacing:0em;text-align:right;text-transform:none;color:rgb(4,7,13);}.e210-7.x-text .x-graphic-icon {width:1.2em;height:2em;line-height:2em;font-size:2em;color:rgb(255,255,255);background-color:rgba(255,255,255,0);}.e210-13.x-text .x-graphic-icon {width:1em;height:1em;line-height:1em;font-size:2em;color:#ececec;background-color:rgba(255,255,255,0);}.e210-3.x-image {width:50px;max-width:50px;margin:0px 0px 0px -15px;background-color:rgba(255,255,255,0);}.e210-12.x-image {width:50px;max-width:50px;background-color:rgba(255,255,255,0);}.e210-17.x-image {width:50px;max-width:50px;margin:0px 15px 0px -15px;background-color:rgba(255,255,255,0);}a.e210-3.x-image:hover {background-color:rgba(255,255,255,0);}a.e210-12.x-image:hover {background-color:rgba(255,255,255,0);}a.e210-17.x-image:hover {background-color:rgba(255,255,255,0);}.e210-20.x-menu {flex-direction:row;justify-content:flex-start;align-items:stretch;align-self:stretch;flex:0 0 auto;margin:0px;font-size:1em;}.e210-20.x-menu > li,.e210-20.x-menu > li > a {flex:0 1 auto;}.e210-20.x-menu > li > .x-anchor {width:100%;min-width:100%;max-width:350px;height:100%;min-height:100%;max-height:350px;margin:0rem 0rem 0rem 3rem;font-size:1.2rem;background-color:transparent;}.e210-20.x-menu > li > .x-anchor .x-anchor-content {flex-direction:row;justify-content:flex-start;align-items:center;}.e210-20.x-menu > li > .x-anchor[class*="active"] {background-color:transparent;}.e210-20.x-menu > li > .x-anchor .x-anchor-text-primary {font-family:Helvetica,Arial,sans-serif;font-size:1.1rem;font-style:normal;font-weight:400;line-height:1.33;text-align:left;color:rgb(0,0,0);}.e210-20.x-menu > li > .x-anchor[class*="active"] .x-anchor-text-primary {color:rgb(82,95,127);}.e210-20.x-menu > li > .x-anchor .x-anchor-text-secondary {margin-top:0.35em;font-family:inherit;font-size:0.75em;font-style:normal;font-weight:400;line-height:1;color:rgba(0,0,0,1);}.e210-20.x-menu > li > .x-anchor[class*="active"] .x-anchor-text-secondary {color:rgba(0,0,0,0.5);}.e210-20.x-menu > li > .x-anchor .x-anchor-sub-indicator {margin:5px 5px 5px 5px;font-size:1em;color:rgb(0,0,0);}.e210-20.x-menu > li > .x-anchor[class*="active"] .x-anchor-sub-indicator {color:rgba(0,0,0,0.5);}.e210-20 .x-dropdown {width:15em;font-size:16px;background-color:#ffffff;}.e210-20 .sub-menu .x-anchor {font-size:1em;background-color:transparent;}.e210-20 .sub-menu .x-anchor .x-anchor-content {flex-direction:row;justify-content:center;align-items:center;padding:0.75em 0.75em 0.75em 0.75em;}.e210-20 .sub-menu .x-anchor[class*="active"] {background-color:transparent;}.e210-20 .sub-menu .x-anchor .x-anchor-text {margin:5px auto 5px 5px;}.e210-20 .sub-menu .x-anchor .x-anchor-text-primary {font-family:Helvetica,Arial,sans-serif;font-size:1em;font-style:normal;font-weight:400;line-height:1;text-align:left;color:rgba(0,0,0,1);}.e210-20 .sub-menu .x-anchor[class*="active"] .x-anchor-text-primary {color:rgba(0,0,0,0.5);}.e210-20 .sub-menu .x-anchor .x-anchor-text-secondary {margin-top:0.35em;font-family:inherit;font-size:0.75em;font-style:normal;font-weight:400;line-height:1;color:rgba(0,0,0,1);}.e210-20 .sub-menu .x-anchor[class*="active"] .x-anchor-text-secondary {color:rgba(0,0,0,0.5);}.e210-20 .sub-menu .x-anchor .x-anchor-sub-indicator {margin:5px;font-size:1em;color:rgba(0,0,0,1);}.e210-20 .sub-menu .x-anchor[class*="active"] .x-anchor-sub-indicator {color:rgba(0,0,0,0.5);}.e210-4.x-anchor-toggle {margin:0px 0px 2px 0px;font-size:1rem;background-color:transparent;}.e210-14.x-anchor-toggle {margin:0px 0px 2px 0px;font-size:1rem;background-color:transparent;}.e210-21.x-anchor-toggle {margin:0px 20px 0px 0px;font-size:1rem;background-color:transparent;}.e210-4.x-anchor-toggle .x-anchor-content {flex-direction:row;justify-content:center;align-items:center;}.e210-14.x-anchor-toggle .x-anchor-content {flex-direction:row;justify-content:center;align-items:center;}.e210-21.x-anchor-toggle .x-anchor-content {flex-direction:row;justify-content:center;align-items:center;}.e210-4.x-anchor-toggle[class*="active"] {background-color:transparent;}.e210-14.x-anchor-toggle[class*="active"] {background-color:transparent;}.e210-21.x-anchor-toggle[class*="active"] {background-color:transparent;}.e210-4.x-anchor-toggle .x-graphic {margin:1px;}.e210-14.x-anchor-toggle .x-graphic {margin:1px;}.e210-21.x-anchor-toggle .x-graphic {margin:1px;}.e210-4 .x-toggle {color:hsl(0,0%,7%);}.e210-14 .x-toggle {color:hsl(0,0%,7%);}.e210-21 .x-toggle {color:hsl(0,0%,7%);}.e210-4[class*="active"] .x-toggle,.e210-4 .x-toggle[class*="active"] {color:rgba(18,18,18,0.5);}.e210-14[class*="active"] .x-toggle,.e210-14 .x-toggle[class*="active"] {color:rgba(18,18,18,0.5);}.e210-21[class*="active"] .x-toggle,.e210-21 .x-toggle[class*="active"] {color:rgba(18,18,18,0.5);}.e210-4 .x-toggle-burger {width:12em;margin:3.25em 0;font-size:2px;}.e210-14 .x-toggle-burger {width:12em;margin:3.25em 0;font-size:2px;}.e210-21 .x-toggle-burger {width:12em;margin:3.25em 0;font-size:2px;}.e210-4 .x-toggle-burger-bun-t {transform:translate3d(0,-3.25em,0);}.e210-14 .x-toggle-burger-bun-t {transform:translate3d(0,-3.25em,0);}.e210-21 .x-toggle-burger-bun-t {transform:translate3d(0,-3.25em,0);}.e210-4 .x-toggle-burger-bun-b {transform:translate3d(0,3.25em,0);}.e210-14 .x-toggle-burger-bun-b {transform:translate3d(0,3.25em,0);}.e210-21 .x-toggle-burger-bun-b {transform:translate3d(0,3.25em,0);}.e210-4.x-modal {font-size:calc(1.25rem + 3vw);}.e210-14.x-modal {font-size:calc(1.25rem + 3vw);}.e210-21.x-modal {font-size:calc(1.25rem + 3vw);}.e210-4.x-modal .x-modal-bg {background-color:hsla(0,0%,91%,0.97);}.e210-14.x-modal .x-modal-bg {background-color:hsla(0,0%,91%,0.97);}.e210-21.x-modal .x-modal-bg {background-color:rgb(26,115,249);}.e210-4.x-modal .x-modal-close {width:calc(1em * 1);height:calc(1em * 1);font-size:1.5em;color:hsla(0,0%,7%,0.26);}.e210-14.x-modal .x-modal-close {width:calc(1em * 1);height:calc(1em * 1);font-size:1.5em;color:hsla(0,0%,7%,0.26);}.e210-21.x-modal .x-modal-close {width:calc(1em * 2);height:calc(1em * 2);font-size:1.5em;color:rgb(255,255,255);}.e210-4.x-modal .x-modal-close:hover,.e210-4.x-modal .x-modal-close:focus {color:#111111;}.e210-14.x-modal .x-modal-close:hover,.e210-14.x-modal .x-modal-close:focus {color:#111111;}.e210-21.x-modal .x-modal-close:hover,.e210-21.x-modal .x-modal-close:focus {color:#111111;}.e210-4.x-modal .x-modal-content-inner {padding:calc(1.5em * 1);}.e210-14.x-modal .x-modal-content-inner {padding:calc(1.5em * 1);}.e210-21.x-modal .x-modal-content-inner {padding:calc(1.5em * 2);}.e210-4.x-modal .x-modal-content {max-width:10em;background-color:transparent;}.e210-14.x-modal .x-modal-content {max-width:10em;background-color:transparent;}.e210-21.x-modal .x-modal-content {max-width:10em;background-color:rgba(26,115,249,0);}.e210-4.x-menu {margin:0px;font-size:1em;}.e210-14.x-menu {margin:0px;font-size:1em;}.e210-21.x-menu {margin:0px;font-size:1em;}.e210-4.x-menu .x-anchor {font-size:1em;background-color:transparent;}.e210-14.x-menu .x-anchor {font-size:1em;background-color:transparent;}.e210-21.x-menu .x-anchor {font-size:1em;background-color:transparent;}.e210-4.x-menu .x-anchor .x-anchor-content {flex-direction:row;justify-content:center;align-items:center;padding:0.75em;}.e210-14.x-menu .x-anchor .x-anchor-content {flex-direction:row;justify-content:center;align-items:center;padding:0.75em;}.e210-21.x-menu .x-anchor .x-anchor-content {flex-direction:row;justify-content:center;align-items:center;padding:0.75em;}.e210-4.x-menu .x-anchor[class*="active"] {background-color:transparent;}.e210-14.x-menu .x-anchor[class*="active"] {background-color:transparent;}.e210-21.x-menu .x-anchor[class*="active"] {background-color:transparent;}.e210-4.x-menu .x-anchor .x-anchor-text-primary {font-family:"PT Sans",sans-serif;font-size:1em;font-style:normal;font-weight:700;line-height:1;letter-spacing:-0.015em;margin-right:calc(-0.015em * -1);color:hsl(0,0%,7%);}.e210-14.x-menu .x-anchor .x-anchor-text-primary {font-family:"PT Sans",sans-serif;font-size:1em;font-style:normal;font-weight:700;line-height:1;letter-spacing:-0.015em;margin-right:calc(-0.015em * -1);color:hsl(0,0%,7%);}.e210-21.x-menu .x-anchor .x-anchor-text-primary {font-family:"PT Sans",sans-serif;font-size:1em;font-style:normal;font-weight:700;line-height:1;letter-spacing:-0.015em;margin-right:calc(-0.015em * -1);color:rgb(255,255,255);}.e210-4.x-menu .x-anchor[class*="active"] .x-anchor-text-primary {color:hsl(0,0%,7%);}.e210-14.x-menu .x-anchor[class*="active"] .x-anchor-text-primary {color:hsl(0,0%,7%);}.e210-21.x-menu .x-anchor[class*="active"] .x-anchor-text-primary {color:hsl(0,0%,7%);}.e210-4.x-menu .x-anchor .x-anchor-text-secondary {margin-top:0.35em;font-family:inherit;font-size:0.75em;font-style:normal;font-weight:400;line-height:1;color:rgba(0,0,0,1);}.e210-14.x-menu .x-anchor .x-anchor-text-secondary {margin-top:0.35em;font-family:inherit;font-size:0.75em;font-style:normal;font-weight:400;line-height:1;color:rgba(0,0,0,1);}.e210-21.x-menu .x-anchor .x-anchor-text-secondary {margin-top:0.35em;font-family:inherit;font-size:0.75em;font-style:normal;font-weight:400;line-height:1;color:rgba(0,0,0,1);}.e210-4.x-menu .x-anchor[class*="active"] .x-anchor-text-secondary {color:rgba(0,0,0,0.5);}.e210-14.x-menu .x-anchor[class*="active"] .x-anchor-text-secondary {color:rgba(0,0,0,0.5);}.e210-21.x-menu .x-anchor[class*="active"] .x-anchor-text-secondary {color:rgba(0,0,0,0.5);}.e210-4.x-menu .x-anchor .x-anchor-particle-primary {width:calc(100% - 0.5em);height:calc(100% - 0.5em);color:white;transform-origin:100% 100%;}.e210-14.x-menu .x-anchor .x-anchor-particle-primary {width:calc(100% - 0.5em);height:calc(100% - 0.5em);color:white;transform-origin:100% 100%;}.e210-4.x-menu .x-anchor .x-anchor-particle-secondary {width:calc(100% - 0.5em);height:calc(100% - 0.5em);color:white;transform-origin:0% 0%;}.e210-14.x-menu .x-anchor .x-anchor-particle-secondary {width:calc(100% - 0.5em);height:calc(100% - 0.5em);color:white;transform-origin:0% 0%;}.e210-5.x-text {margin:.9em 0em 0em 0em;padding:0em;font-family:"Source Code Pro",monospace;font-size:.7em;font-style:normal;font-weight:400;line-height:1;letter-spacing:0em;text-transform:none;color:rgba(0,0,0,1);background-color:transparent;}.e210-19.x-text {margin:.9em -0em 0em -1em;padding:0em;font-family:"Source Code Pro",monospace;font-size:0.7em;font-style:normal;font-weight:400;line-height:1;letter-spacing:0em;text-transform:none;color:rgba(104,106,110,0.37);background-color:transparent;}.e210-5.x-text > :first-child {margin-top:0;}.e210-19.x-text > :first-child {margin-top:0;}.e210-5.x-text > :last-child {margin-bottom:0;}.e210-19.x-text > :last-child {margin-bottom:0;}.e210-9.x-anchor-toggle {width:2.75em;height:2.75em;margin:0px 0px 5px 0px;border-radius:100em;font-size:1em;background-color:rgba(255,255,255,1);box-shadow:0em 0.15em 0.65em 0em rgba(0,0,0,0.25);}.e210-23.x-anchor-toggle {width:2.75em;height:2.75em;margin:0px 20px 5px 20px;border-radius:100em;font-size:1em;background-color:rgba(255,255,255,1);box-shadow:0em 0.15em 0.65em 0em rgba(0,0,0,0.25);}.e210-9.x-anchor-toggle .x-anchor-content {flex-direction:row;justify-content:center;align-items:center;}.e210-23.x-anchor-toggle .x-anchor-content {flex-direction:row;justify-content:center;align-items:center;}.e210-9.x-anchor-toggle[class*="active"] {background-color:rgba(255,255,255,1);box-shadow:0em 0.15em 0.65em 0em rgba(0,0,0,0.15);}.e210-23.x-anchor-toggle[class*="active"] {background-color:rgba(255,255,255,1);box-shadow:0em 0.15em 0.65em 0em rgba(0,0,0,0.15);}.e210-9.x-anchor-toggle .x-graphic {margin:7px 8px 5px 5px;}.e210-23.x-anchor-toggle .x-graphic {margin:7px 8px 5px 5px;}.e210-9.x-anchor-toggle .x-graphic-icon {width:1em;height:1em;line-height:1em;font-size:1em;color:rgb(4,7,13);background-color:transparent;}.e210-23.x-anchor-toggle .x-graphic-icon {width:1em;height:1em;line-height:1em;font-size:1em;color:rgb(4,7,13);background-color:transparent;}.e210-9.x-anchor-toggle .x-graphic-icon[class*="active"] {color:rgb(26,115,249);background-color:transparent;}.e210-23.x-anchor-toggle .x-graphic-icon[class*="active"] {color:rgb(26,115,249);background-color:transparent;}.e210-9.x-off-canvas {font-size:16px;}.e210-23.x-off-canvas {font-size:16px;}.e210-9.x-off-canvas .x-off-canvas-bg {background-color:rgba(4,7,13,0.55);}.e210-23.x-off-canvas .x-off-canvas-bg {background-color:rgba(4,7,13,0.55);}.e210-9.x-off-canvas .x-off-canvas-close {width:calc(1em * 2);height:calc(1em * 2);font-size:1.5em;color:rgba(0,0,0,0.5);}.e210-23.x-off-canvas .x-off-canvas-close {width:calc(1em * 2);height:calc(1em * 2);font-size:1.5em;color:rgba(0,0,0,0.5);}.e210-9.x-off-canvas .x-off-canvas-close:hover,.e210-9.x-off-canvas .x-off-canvas-close:focus {color:rgba(0,0,0,1);}.e210-23.x-off-canvas .x-off-canvas-close:hover,.e210-23.x-off-canvas .x-off-canvas-close:focus {color:rgba(0,0,0,1);}.e210-9.x-off-canvas .x-off-canvas-content {max-width:24em;padding:calc(1.5em * 2);background-color:#ffffff;box-shadow:0em 0em 2em 0em rgba(0,0,0,0.25);}.e210-23.x-off-canvas .x-off-canvas-content {max-width:24em;padding:calc(1.5em * 2);background-color:#ffffff;box-shadow:0em 0em 2em 0em rgba(0,0,0,0.25);}.e210-9 .x-mini-cart-title {margin:0px 0px 15px 0px;font-family:inherit;font-size:2em;font-style:normal;font-weight:400;line-height:1.1;letter-spacing:-0.035em;text-align:left;color:rgba(0,0,0,1);}.e210-23 .x-mini-cart-title {margin:0px 0px 15px 0px;font-family:inherit;font-size:2em;font-style:normal;font-weight:400;line-height:1.1;letter-spacing:-0.035em;text-align:left;color:rgba(0,0,0,1);}.e210-9 .x-mini-cart li.empty {line-height:1.4;text-align:left;color:rgba(0,0,0,1);}.e210-23 .x-mini-cart li.empty {line-height:1.4;text-align:left;color:rgba(0,0,0,1);}.e210-9 .cart_list {order:1;}.e210-23 .cart_list {order:1;}.e210-9 .mini_cart_item {border-width:1px 0px 0px 0px;border-style:none solid solid solid;border-color:rgba(0,0,0,0.065) transparent transparent transparent;padding:15px 0px 15px 0px;background-color:transparent;}.e210-23 .mini_cart_item {border-width:1px 0px 0px 0px;border-style:none solid solid solid;border-color:rgba(0,0,0,0.065) transparent transparent transparent;padding:15px 0px 15px 0px;background-color:transparent;}.e210-9 .mini_cart_item:hover {border-color:rgba(0,0,0,0.065) transparent transparent transparent;background-color:transparent;}.e210-23 .mini_cart_item:hover {border-color:rgba(0,0,0,0.065) transparent transparent transparent;background-color:transparent;}.e210-9 .mini_cart_item img {width:85px;margin-right:15px;border-radius:5px;box-shadow:0em 0.15em 1em 0em rgba(0,0,0,0.05);}.e210-23 .mini_cart_item img {width:85px;margin-right:15px;border-radius:5px;box-shadow:0em 0.15em 1em 0em rgba(0,0,0,0.05);}.rtl .e210-9 .mini_cart_item img {margin-left:15px;margin-right:0;}.rtl .e210-23 .mini_cart_item img {margin-left:15px;margin-right:0;}.e210-9 .mini_cart_item a {font-family:inherit;font-size:1em;font-style:normal;font-weight:400;line-height:1.4;color:rgba(0,0,0,1);}.e210-23 .mini_cart_item a {font-family:inherit;font-size:1em;font-style:normal;font-weight:400;line-height:1.4;color:rgba(0,0,0,1);}.e210-9 .mini_cart_item a:hover,.e210-9 .mini_cart_item a:focus {color:rgba(0,0,0,0.5);}.e210-23 .mini_cart_item a:hover,.e210-23 .mini_cart_item a:focus {color:rgba(0,0,0,0.5);}.e210-9 .mini_cart_item .remove {width:calc(1em * 1.4);margin-left:15px;}.e210-23 .mini_cart_item .remove {width:calc(1em * 1.4);margin-left:15px;}.rtl .e210-9 .mini_cart_item .remove {margin-left:0;margin-right:15px;}.rtl .e210-23 .mini_cart_item .remove {margin-left:0;margin-right:15px;}.e210-9 .mini_cart_item .quantity {font-family:inherit;font-size:0.85em;font-style:normal;font-weight:400;line-height:1.9;color:rgba(0,0,0,1);}.e210-23 .mini_cart_item .quantity {font-family:inherit;font-size:0.85em;font-style:normal;font-weight:400;line-height:1.9;color:rgba(0,0,0,1);}.e210-9 .x-mini-cart .total {order:2;margin:0px;border-width:1px 0px 1px 0px;border-style:none solid solid solid;border-color:rgba(0,0,0,0.065) transparent rgba(0,0,0,0.065) transparent;padding:10px 0px 10px 0px;font-family:inherit;font-size:1em;font-style:normal;font-weight:400;line-height:1;text-align:center;color:rgba(0,0,0,1);background-color:transparent;}.e210-23 .x-mini-cart .total {order:2;margin:0px;border-width:1px 0px 1px 0px;border-style:none solid solid solid;border-color:rgba(0,0,0,0.065) transparent rgba(0,0,0,0.065) transparent;padding:10px 0px 10px 0px;font-family:inherit;font-size:1em;font-style:normal;font-weight:400;line-height:1;text-align:center;color:rgba(0,0,0,1);background-color:transparent;}.e210-9 .x-mini-cart .buttons {order:3;justify-content:space-between;margin:15px 0px 0px 0px;padding:0px;background-color:transparent;}.e210-23 .x-mini-cart .buttons {order:3;justify-content:space-between;margin:15px 0px 0px 0px;padding:0px;background-color:transparent;}.e210-9 .buttons .x-anchor {width:47.5%;border-width:1px;border-style:solid;border-color:rgba(0,0,0,0.065);border-radius:0.5em;font-size:0.75em;background-color:#ececec;box-shadow:0em 0.15em 0.5em 0em rgba(0,0,0,0.05);}.e210-23 .buttons .x-anchor {width:47.5%;border-width:1px;border-style:solid;border-color:rgba(0,0,0,0.065);border-radius:0.5em;font-size:0.75em;background-color:#ececec;box-shadow:0em 0.15em 0.5em 0em rgba(0,0,0,0.05);}.e210-9 .buttons .x-anchor .x-anchor-content {padding:0.75em 1.25em 0.75em 1.25em;}.e210-23 .buttons .x-anchor .x-anchor-content {padding:0.75em 1.25em 0.75em 1.25em;}.e210-9 .buttons .x-anchor[class*="active"] {border-color:rgba(0,0,0,0.065);background-color:#f5f5f5;box-shadow:0em 0.15em 0.5em 0em rgba(0,0,0,0.05);}.e210-23 .buttons .x-anchor[class*="active"] {border-color:rgba(0,0,0,0.065);background-color:#f5f5f5;box-shadow:0em 0.15em 0.5em 0em rgba(0,0,0,0.05);}.e210-9 .buttons .x-anchor .x-anchor-text {margin:5px;}.e210-23 .buttons .x-anchor .x-anchor-text {margin:5px;}.e210-9 .buttons .x-anchor .x-anchor-text-primary {font-family:inherit;font-size:1em;font-style:normal;font-weight:400;line-height:1;letter-spacing:0.15em;margin-right:calc(0.15em * -1);text-align:center;text-transform:uppercase;color:rgba(0,0,0,1);}.e210-23 .buttons .x-anchor .x-anchor-text-primary {font-family:inherit;font-size:1em;font-style:normal;font-weight:400;line-height:1;letter-spacing:0.15em;margin-right:calc(0.15em * -1);text-align:center;text-transform:uppercase;color:rgba(0,0,0,1);}.e210-9 .buttons .x-anchor[class*="active"] .x-anchor-text-primary {color:rgba(0,0,0,0.5);}.e210-23 .buttons .x-anchor[class*="active"] .x-anchor-text-primary {color:rgba(0,0,0,0.5);}.e35-1.x-bar {height:5em;font-size:16px;background-color:#080B0F;z-index:9999;}.e35-10.x-bar {height:5em;font-size:16px;background-color:#080B0F;z-index:9999;}.e35-1.x-bar-content {flex-direction:row;justify-content:center;align-items:flex-start;flex:0 1 93%;height:5em;max-width:1200px;}.e35-10.x-bar-content {flex-direction:row;justify-content:center;align-items:flex-start;flex:0 1 93%;height:5em;max-width:1200px;}.e35-1.x-bar-outer-spacers:before,.e35-1.x-bar-outer-spacers:after {flex-basis:3em;width:3em;height:3em;}.e35-10.x-bar-outer-spacers:before,.e35-10.x-bar-outer-spacers:after {flex-basis:3em;width:3em;height:3em;}.e35-1.x-bar-space {font-size:16px;}.e35-10.x-bar-space {font-size:16px;}.e35-2.x-bar-container {flex-direction:row;justify-content:flex-start;align-items:flex-start;flex:0 1 auto;border-width:1px 0px 0px 0px;border-style:solid solid solid solid;border-color:rgb(63,63,63) rgb(255,255,255) rgb(255,255,255) rgb(255,255,255);padding:30px 0px 0px 0px;background-color:transparent;}.e35-8.x-bar-container {flex-direction:column;justify-content:flex-start;align-items:flex-end;flex:1 0 0%;max-width:85%;border-width:1px 0px 0px 0px;border-style:solid none none none;border-color:rgb(63,63,63) transparent transparent transparent;background-color:transparent;}.e35-11.x-bar-container {flex-direction:row;justify-content:flex-start;align-items:flex-start;flex:0 1 auto;border-width:1px 0px 0px 0px;border-style:solid solid solid solid;border-color:rgb(63,63,63) rgb(255,255,255) rgb(255,255,255) rgb(255,255,255);padding:30px 0px 0px 0px;background-color:transparent;}.e35-17.x-bar-container {flex-direction:column;justify-content:flex-start;align-items:flex-end;flex:1 0 0%;max-width:85%;border-width:1px 0px 0px 0px;border-style:solid none none none;border-color:rgb(63,63,63) transparent transparent transparent;background-color:transparent;}.e35-3.x-anchor {width:1em;height:1em;margin:0em 0.25em 0em 0em;font-size:1.5rem;background-color:transparent;}.e35-4.x-anchor {width:1em;height:1em;margin:0em 0.25em 0em 0em;font-size:1.5rem;background-color:transparent;}.e35-5.x-anchor {width:1em;height:1em;margin:0em 0.25em 0em 0em;font-size:1.5rem;background-color:transparent;}.e35-6.x-anchor {width:1em;height:1em;margin:0em 0.25em 0em 0em;font-size:1.5rem;background-color:transparent;}.e35-7.x-anchor {width:1em;height:1em;margin:0em 0.25em 0em 0em;font-size:1.5rem;background-color:transparent;}.e35-12.x-anchor {width:1em;height:1em;margin:0em 0.25em 0em 0em;font-size:1.5rem;background-color:transparent;}.e35-13.x-anchor {width:1em;height:1em;margin:0em 0.25em 0em 0em;font-size:1.5rem;background-color:transparent;}.e35-14.x-anchor {width:1em;height:1em;margin:0em 0.25em 0em 0em;font-size:1.5rem;background-color:transparent;}.e35-15.x-anchor {width:1em;height:1em;margin:0em 0.25em 0em 0em;font-size:1.5rem;background-color:transparent;}.e35-16.x-anchor {width:1em;height:1em;margin:0em 0.25em 0em 0em;font-size:1.5rem;background-color:transparent;}.e35-3.x-anchor .x-anchor-content {flex-direction:row;justify-content:center;align-items:center;}.e35-4.x-anchor .x-anchor-content {flex-direction:row;justify-content:flex-start;align-items:flex-start;}.e35-5.x-anchor .x-anchor-content {flex-direction:row;justify-content:center;align-items:center;}.e35-6.x-anchor .x-anchor-content {flex-direction:row;justify-content:center;align-items:center;}.e35-7.x-anchor .x-anchor-content {flex-direction:row;justify-content:center;align-items:center;}.e35-12.x-anchor .x-anchor-content {flex-direction:row;justify-content:center;align-items:center;}.e35-13.x-anchor .x-anchor-content {flex-direction:row;justify-content:flex-start;align-items:flex-start;}.e35-14.x-anchor .x-anchor-content {flex-direction:row;justify-content:center;align-items:center;}.e35-15.x-anchor .x-anchor-content {flex-direction:row;justify-content:center;align-items:center;}.e35-16.x-anchor .x-anchor-content {flex-direction:row;justify-content:center;align-items:center;}.e35-3.x-anchor[class*="active"] {background-color:transparent;}.e35-4.x-anchor[class*="active"] {background-color:transparent;}.e35-5.x-anchor[class*="active"] {background-color:transparent;}.e35-6.x-anchor[class*="active"] {background-color:transparent;}.e35-7.x-anchor[class*="active"] {background-color:transparent;}.e35-12.x-anchor[class*="active"] {background-color:transparent;}.e35-13.x-anchor[class*="active"] {background-color:transparent;}.e35-14.x-anchor[class*="active"] {background-color:transparent;}.e35-15.x-anchor[class*="active"] {background-color:transparent;}.e35-16.x-anchor[class*="active"] {background-color:transparent;}.e35-3.x-anchor .x-graphic-icon {width:1em;height:1em;line-height:1em;font-size:1em;color:#818386;background-color:transparent;}.e35-4.x-anchor .x-graphic-icon {width:1em;height:1em;line-height:1em;font-size:1em;color:#818386;background-color:transparent;}.e35-5.x-anchor .x-graphic-icon {width:1em;height:1em;line-height:1em;font-size:1em;color:#818386;background-color:transparent;}.e35-6.x-anchor .x-graphic-icon {width:1em;height:1em;line-height:1em;font-size:1em;color:#818386;background-color:transparent;}.e35-7.x-anchor .x-graphic-icon {width:1em;height:1em;line-height:1em;font-size:1em;color:#818386;background-color:transparent;}.e35-12.x-anchor .x-graphic-icon {width:1em;height:1em;line-height:1em;font-size:1em;color:#818386;background-color:transparent;}.e35-13.x-anchor .x-graphic-icon {width:1em;height:1em;line-height:1em;font-size:1em;color:#818386;background-color:transparent;}.e35-14.x-anchor .x-graphic-icon {width:1em;height:1em;line-height:1em;font-size:1em;color:#818386;background-color:transparent;}.e35-15.x-anchor .x-graphic-icon {width:1em;height:1em;line-height:1em;font-size:1em;color:#818386;background-color:transparent;}.e35-16.x-anchor .x-graphic-icon {width:1em;height:1em;line-height:1em;font-size:1em;color:#818386;background-color:transparent;}.e35-3.x-anchor .x-graphic-icon[class*="active"] {color:rgb(255,255,255);background-color:transparent;}.e35-4.x-anchor .x-graphic-icon[class*="active"] {color:rgb(255,255,255);background-color:transparent;}.e35-5.x-anchor .x-graphic-icon[class*="active"] {color:rgb(255,255,255);background-color:transparent;}.e35-6.x-anchor .x-graphic-icon[class*="active"] {color:rgb(255,255,255);background-color:transparent;}.e35-7.x-anchor .x-graphic-icon[class*="active"] {color:rgb(255,255,255);background-color:transparent;}.e35-12.x-anchor .x-graphic-icon[class*="active"] {color:rgb(255,255,255);background-color:transparent;}.e35-13.x-anchor .x-graphic-icon[class*="active"] {color:rgb(255,255,255);background-color:transparent;}.e35-14.x-anchor .x-graphic-icon[class*="active"] {color:rgb(255,255,255);background-color:transparent;}.e35-15.x-anchor .x-graphic-icon[class*="active"] {color:rgb(255,255,255);background-color:transparent;}.e35-16.x-anchor .x-graphic-icon[class*="active"] {color:rgb(255,255,255);background-color:transparent;}.e35-9.x-text {margin:0px 0px 0px 0px;padding:30px 0px 0px 0px;font-family:Helvetica,Arial,sans-serif;font-size:.75em;font-style:normal;font-weight:400;line-height:1.4;letter-spacing:0em;text-transform:none;color:#818386;background-color:transparent;}.e35-18.x-text {margin:0px 0px 0px 0px;padding:30px 0px 0px 0px;font-family:Helvetica,Arial,sans-serif;font-size:.75em;font-style:normal;font-weight:400;line-height:1.4;letter-spacing:0em;text-transform:none;color:#818386;background-color:transparent;}.e35-19.x-text {margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;font-family:Helvetica,Arial,sans-serif;font-size:.75em;font-style:normal;font-weight:400;line-height:1.4;letter-spacing:0em;text-transform:none;color:#818386;background-color:transparent;}.e35-9.x-text > :first-child {margin-top:0;}.e35-18.x-text > :first-child {margin-top:0;}.e35-19.x-text > :first-child {margin-top:0;}.e35-9.x-text > :last-child {margin-bottom:0;}.e35-18.x-text > :last-child {margin-bottom:0;}.e35-19.x-text > :last-child {margin-bottom:0;}.e196-19.x-acc {width:100%;font-size:1.1em;background-color:rgba(239,102,59,0);}.e196-21.x-acc {width:100%;font-size:1.1em;background-color:rgb(255,255,255);}.e196-23.x-acc {width:100%;font-size:1.1em;background-color:rgb(255,255,255);}.e196-21.x-acc .x-acc-item {overflow:hidden;background-color:rgb(220,220,220);box-shadow:0em 0.15em 0.65em 0em rgba(0,0,0,0.25);}.e196-23.x-acc .x-acc-item {overflow:hidden;background-color:rgb(230,230,230);box-shadow:0em 0.15em 0.65em 0em rgba(0,0,0,0.25);}.e196-19.x-acc .x-acc-item {background-color:rgb(210,210,210);box-shadow:0em 0.15em 0.65em 0em rgba(0,0,0,0.25);}.e196-19.x-acc .x-acc-item + .x-acc-item {margin-top:0px;}.e196-21.x-acc .x-acc-item + .x-acc-item {margin-top:0px;}.e196-23.x-acc .x-acc-item + .x-acc-item {margin-top:0px;}.e196-19.x-acc .x-acc-header {border-width:0px;border-style:none;border-color:transparent;border-radius:0px 0px 0px 0px;padding:15px 15% 15px 15%;font-family:"Source Code Pro",monospace;font-size:1em;font-style:normal;font-weight:400;line-height:1.3;text-align:left;color:rgb(4,7,13);background-color:rgb(220,220,220);}.e196-21.x-acc .x-acc-header {border-width:0px;border-style:none;border-color:transparent;border-radius:0px 0px 0px 0px;padding:15px 15% 15px 15%;font-family:"Source Code Pro",monospace;font-size:1em;font-style:normal;font-weight:400;line-height:1.3;text-align:left;color:rgb(4,7,13);background-color:rgb(230,230,230);}.e196-23.x-acc .x-acc-header {border-width:0px;border-style:none;border-color:transparent;border-radius:0px 0px 0px 0px;padding:15px 15% 15px 15%;font-family:"Source Code Pro",monospace;font-size:1em;font-style:normal;font-weight:400;line-height:1.3;text-align:left;color:rgb(4,7,13);background-color:rgb(240,240,240);}.e196-19.x-acc .x-acc-header:hover,.e196-19.x-acc .x-acc-header[class*="active"] {color:rgb(26,115,249);background-color:rgb(220,220,220);}.e196-21.x-acc .x-acc-header:hover,.e196-21.x-acc .x-acc-header[class*="active"] {color:rgb(26,115,249);background-color:rgb(230,230,230);}.e196-23.x-acc .x-acc-header:hover,.e196-23.x-acc .x-acc-header[class*="active"] {color:rgb(26,115,249);background-color:rgb(240,240,240);}.e196-19.x-acc .x-acc-header-content {flex-direction:row-reverse;}.e196-19.x-acc .x-acc-content {padding:20px 15% 20px 15%;font-family:"Poppins",sans-serif;font-size:1em;font-style:normal;font-weight:300;line-height:1.6;text-align:left;color:rgb(4,7,13);background-color:rgb(220,220,220);}.e196-21.x-acc .x-acc-content {padding:20px 15% 20px 15%;font-family:"Poppins",sans-serif;font-size:1em;font-style:normal;font-weight:400;line-height:1.6;text-align:left;color:rgb(4,7,13);background-color:rgb(230,230,230);}.e196-23.x-acc .x-acc-content {padding:20px 15% 20px 15%;font-family:"Poppins",sans-serif;font-size:1em;font-style:normal;font-weight:400;line-height:1.6;text-align:left;color:rgb(4,7,13);background-color:rgb(240,240,240);}.e196-63.x-anchor {margin:1em;border-radius:0.35em;font-size:1em;background-color:rgba(255,255,255,1);box-shadow:0em 0.15em 0.65em 0em rgba(0,0,0,0.25);}.e196-7.x-anchor {border-radius:0.35em;font-size:1em;background-color:rgb(26,115,249);}.e196-8.x-anchor {border-radius:0.35em;font-size:1em;background-color:rgba(255,255,255,1);}.e196-7.x-anchor .x-anchor-content {flex-direction:row;justify-content:center;align-items:center;padding:0.575em 0.85em 0.575em 0.85em;}.e196-8.x-anchor .x-anchor-content {flex-direction:row;justify-content:center;align-items:center;padding:0.575em 0.85em 0.575em 0.85em;}.e196-63.x-anchor .x-anchor-content {flex-direction:row;justify-content:center;align-items:center;padding:0.575em 0.85em 0.575em 0.85em;}.e196-7.x-anchor[class*="active"] {background-color:rgba(255,255,255,1);}.e196-8.x-anchor[class*="active"] {background-color:rgba(255,255,255,1);}.e196-63.x-anchor[class*="active"] {background-color:rgba(255,255,255,1);box-shadow:0em 0.15em 0.65em 0em rgba(0,0,0,0.25);}.e196-7.x-anchor .x-anchor-text {margin:5px;}.e196-8.x-anchor .x-anchor-text {margin:5px;}.e196-63.x-anchor .x-anchor-text {margin:5px;}.e196-7.x-anchor .x-anchor-text-primary {font-family:"Source Code Pro",monospace;font-size:1em;font-style:normal;font-weight:400;line-height:1;color:rgba(0,0,0,1);}.e196-8.x-anchor .x-anchor-text-primary {font-family:"Source Code Pro",monospace;font-size:1em;font-style:normal;font-weight:400;line-height:1;color:rgba(0,0,0,1);}.e196-63.x-anchor .x-anchor-text-primary {font-family:inherit;font-size:1em;font-style:normal;font-weight:400;line-height:1;color:rgba(0,0,0,1);}.e196-7.x-anchor[class*="active"] .x-anchor-text-primary {color:rgba(0,0,0,0.5);}.e196-8.x-anchor[class*="active"] .x-anchor-text-primary {color:rgba(0,0,0,0.5);}.e196-63.x-anchor[class*="active"] .x-anchor-text-primary {color:rgba(0,0,0,0.5);}.e196-7.x-anchor .x-anchor-text-secondary {margin-top:0.35em;font-family:inherit;font-size:0.75em;font-style:normal;font-weight:400;line-height:1;color:rgba(0,0,0,1);}.e196-8.x-anchor .x-anchor-text-secondary {margin-top:0.35em;font-family:inherit;font-size:0.75em;font-style:normal;font-weight:400;line-height:1;color:rgba(0,0,0,1);}.e196-63.x-anchor .x-anchor-text-secondary {margin-top:0.35em;font-family:inherit;font-size:0.75em;font-style:normal;font-weight:400;line-height:1;color:rgba(0,0,0,1);}.e196-7.x-anchor[class*="active"] .x-anchor-text-secondary {color:rgba(0,0,0,0.5);}.e196-8.x-anchor[class*="active"] .x-anchor-text-secondary {color:rgba(0,0,0,0.5);}.e196-63.x-anchor[class*="active"] .x-anchor-text-secondary {color:rgba(0,0,0,0.5);}.e196-60.x-column {text-align:center;background-color:transparent;z-index:1;}.e196-3.x-column {background-color:transparent;z-index:1;}.e196-9.x-column {background-color:transparent;z-index:1;}.e196-13.x-column {background-color:transparent;z-index:1;}.e196-18.x-column {background-color:rgb(255,255,255);z-index:1;}.e196-27.x-column {background-color:transparent;z-index:1;}.e196-32.x-column {background-color:transparent;z-index:1;}.e196-37.x-column {background-color:transparent;z-index:1;}.e196-43.x-column {background-color:transparent;z-index:1;}.e196-48.x-column {background-color:transparent;z-index:1;}.e196-53.x-column {background-color:transparent;z-index:1;}.e196-67.x-column {background-color:transparent;z-index:1;}.e196-73.x-column {background-color:transparent;z-index:1;}.e196-79.x-column {background-color:transparent;z-index:1;}.e196-85.x-column {background-color:transparent;z-index:1;}.e196-91.x-column {background-color:transparent;z-index:1;}.e196-98.x-column {background-color:transparent;z-index:1;}.e196-104.x-column {background-color:transparent;z-index:1;}.e196-110.x-column {background-color:transparent;z-index:1;}.e196-116.x-column {background-color:transparent;z-index:1;}.e196-122.x-column {background-color:transparent;z-index:1;}.e196-130.x-column {background-color:transparent;z-index:1;}.e196-71.x-counter {margin:0em 0em .5em 0em;font-size:1em;}.e196-77.x-counter {margin:0em 0em .5em 0em;font-size:1em;}.e196-83.x-counter {margin:0em 0em .5em 0em;font-size:1em;}.e196-89.x-counter {margin:0em 0em .5em 0em;font-size:1em;}.e196-95.x-counter {margin:0em 0em .5em 0em;font-size:1em;}.e196-102.x-counter {margin:0em 0em .5em 0em;font-size:1em;}.e196-108.x-counter {margin:0em 0em .5em 0em;font-size:1em;}.e196-114.x-counter {margin:0em 0em .5em 0em;font-size:1em;}.e196-120.x-counter {margin:0em 0em .5em 0em;font-size:1em;}.e196-126.x-counter {margin:0em 0em 0.5em 0em;font-size:1em;}.e196-71 .x-counter-number-wrap {font-family:"Source Code Pro",monospace;font-size:1em;font-style:normal;font-weight:400;line-height:1;text-align:left;color:rgba(0,0,0,1);}.e196-77 .x-counter-number-wrap {font-family:"Source Code Pro",monospace;font-size:1em;font-style:normal;font-weight:400;line-height:1;text-align:left;color:rgba(0,0,0,1);}.e196-83 .x-counter-number-wrap {font-family:"Source Code Pro",monospace;font-size:1em;font-style:normal;font-weight:400;line-height:1;text-align:left;color:rgba(0,0,0,1);}.e196-89 .x-counter-number-wrap {font-family:"Source Code Pro",monospace;font-size:1em;font-style:normal;font-weight:400;line-height:1;text-align:left;color:rgba(0,0,0,1);}.e196-95 .x-counter-number-wrap {font-family:"Source Code Pro",monospace;font-size:1em;font-style:normal;font-weight:400;line-height:1;text-align:left;color:rgba(0,0,0,1);}.e196-102 .x-counter-number-wrap {font-family:"Source Code Pro",monospace;font-size:1em;font-style:normal;font-weight:400;line-height:1;text-align:left;color:rgba(0,0,0,1);}.e196-108 .x-counter-number-wrap {font-family:"Source Code Pro",monospace;font-size:1em;font-style:normal;font-weight:400;line-height:1;text-align:left;color:rgba(0,0,0,1);}.e196-114 .x-counter-number-wrap {font-family:"Source Code Pro",monospace;font-size:1em;font-style:normal;font-weight:400;line-height:1;text-align:left;color:rgba(0,0,0,1);}.e196-120 .x-counter-number-wrap {font-family:"Source Code Pro",monospace;font-size:1em;font-style:normal;font-weight:400;line-height:1;text-align:left;color:rgba(0,0,0,1);}.e196-126 .x-counter-number-wrap {font-family:"Source Code Pro",monospace;font-size:1em;font-style:normal;font-weight:400;line-height:1;text-align:left;color:rgba(0,0,0,1);}.e196-31.x-line {padding:50px 0 0 0;font-size:1em;}.e196-36.x-line {padding:50px 0 0 0;font-size:1em;}.e196-41.x-line {padding:50px 0 0 0;font-size:1em;}.e196-47.x-line {padding:50px 0 0 0;font-size:1em;}.e196-52.x-line {padding:50px 0 0 0;font-size:1em;}.e196-57.x-line {padding:50px 0 0 0;font-size:1em;}.e196-65.x-line {padding:75px 0 0 0;font-size:1em;}.e196-72.x-line {padding:25px 0 0 0;font-size:1em;}.e196-78.x-line {padding:25px 0 0 0;font-size:1em;}.e196-84.x-line {padding:25px 0 0 0;font-size:1em;}.e196-90.x-line {padding:25px 0 0 0;font-size:1em;}.e196-96.x-line {padding:25px 0 0 0;font-size:1em;}.e196-103.x-line {padding:25px 0 0 0;font-size:1em;}.e196-109.x-line {padding:25px 0 0 0;font-size:1em;}.e196-115.x-line {padding:25px 0 0 0;font-size:1em;}.e196-121.x-line {padding:25px 0 0 0;font-size:1em;}.e196-127.x-line {padding:25px 0 0 0;font-size:1em;}.e196-4.x-text {margin:0em;padding:0em;font-size:1em;background-color:transparent;}.e196-14.x-text {margin:0em;padding:0em;font-size:1em;background-color:transparent;}.e196-28.x-text {margin:0em;padding:0em;font-size:2em;background-color:transparent;}.e196-33.x-text {margin:0em;padding:0em;font-size:2em;background-color:transparent;}.e196-38.x-text {margin:0em;padding:0em;font-size:2em;background-color:transparent;}.e196-44.x-text {margin:0em;padding:0em;font-size:2em;background-color:transparent;}.e196-49.x-text {margin:0em;padding:0em;font-size:2em;background-color:transparent;}.e196-54.x-text {margin:0em;padding:0em;font-size:2em;background-color:transparent;}.e196-61.x-text {margin:0em;padding:0em;font-size:1em;background-color:transparent;}.e196-69.x-text {margin:1em 0em .1em 0em;padding:0em;font-size:1em;background-color:transparent;}.e196-75.x-text {margin:1em 0em 0em 0em;padding:0em;font-size:1em;background-color:transparent;}.e196-81.x-text {margin:1em 0em 0em 0em;padding:0em;font-size:1em;background-color:transparent;}.e196-87.x-text {margin:1em 0em 0em 0em;padding:0em;font-size:1em;background-color:transparent;}.e196-93.x-text {margin:1em 0em 0em 0em;padding:0em;font-size:1em;background-color:transparent;}.e196-100.x-text {margin:1em 0em .1em 0em;padding:0em;font-size:1em;background-color:transparent;}.e196-106.x-text {margin:1em 0em 0em 0em;padding:0em;font-size:1em;background-color:transparent;}.e196-112.x-text {margin:1em 0em 0em 0em;padding:0em;font-size:1em;background-color:transparent;}.e196-118.x-text {margin:1em 0em 0em 0em;padding:0em;font-size:1em;background-color:transparent;}.e196-124.x-text {margin:1em 0em 0em 0em;padding:0em;font-size:1em;background-color:transparent;}.e196-28.x-text .x-text-content {flex-direction:row;justify-content:center;align-items:center;}.e196-33.x-text .x-text-content {flex-direction:row;justify-content:center;align-items:center;}.e196-38.x-text .x-text-content {flex-direction:row;justify-content:center;align-items:center;}.e196-44.x-text .x-text-content {flex-direction:row;justify-content:center;align-items:center;}.e196-49.x-text .x-text-content {flex-direction:row;justify-content:center;align-items:center;}.e196-54.x-text .x-text-content {flex-direction:row;justify-content:center;align-items:center;}.e196-14.x-text .x-text-content-text {margin:0px 0px 20px -20px;}.e196-4.x-text .x-text-content-text-primary {margin:0 calc(0em * -1) 0 0;font-family:"Poppins",sans-serif;font-size:3.3em;font-style:normal;font-weight:700;line-height:1.2;letter-spacing:0em;text-align:left;text-transform:none;color:rgb(255,255,255);}.e196-14.x-text .x-text-content-text-primary {margin:0 calc(0em * -1) 0 0;font-family:"Poppins",sans-serif;font-size:3.3em;font-style:normal;font-weight:700;line-height:1.2;letter-spacing:0em;text-align:left;text-transform:none;color:rgb(0,0,0);}.e196-28.x-text .x-text-content-text-primary {margin:0 calc(0em * -1) 0 0;font-family:"Poppins",sans-serif;font-size:1em;font-style:normal;font-weight:700;line-height:1.4;letter-spacing:0em;text-decoration:underline;text-transform:none;color:rgba(0,0,0,1);}.e196-33.x-text .x-text-content-text-primary {margin:0 calc(0em * -1) 0 0;font-family:"Poppins",sans-serif;font-size:1em;font-style:normal;font-weight:700;line-height:1.4;letter-spacing:0em;text-decoration:underline;text-transform:none;color:rgba(0,0,0,1);}.e196-38.x-text .x-text-content-text-primary {margin:0 calc(0em * -1) 0 0;font-family:"Poppins",sans-serif;font-size:1em;font-style:normal;font-weight:700;line-height:1.4;letter-spacing:0em;text-decoration:underline;text-transform:none;color:rgba(0,0,0,1);}.e196-44.x-text .x-text-content-text-primary {margin:0 calc(0em * -1) 0 0;font-family:"Poppins",sans-serif;font-size:1em;font-style:normal;font-weight:700;line-height:1.4;letter-spacing:0em;text-decoration:underline;text-transform:none;color:rgba(0,0,0,1);}.e196-49.x-text .x-text-content-text-primary {margin:0 calc(0em * -1) 0 0;font-family:"Poppins",sans-serif;font-size:1em;font-style:normal;font-weight:700;line-height:1.4;letter-spacing:0em;text-decoration:underline;text-transform:none;color:rgba(0,0,0,1);}.e196-54.x-text .x-text-content-text-primary {margin:0 calc(0em * -1) 0 0;font-family:"Poppins",sans-serif;font-size:1em;font-style:normal;font-weight:700;line-height:1.4;letter-spacing:0em;text-decoration:underline;text-transform:none;color:rgba(0,0,0,1);}.e196-61.x-text .x-text-content-text-primary {margin:0 calc(0em * -1) 0 0;font-family:"Poppins",sans-serif;font-size:3.3em;font-style:normal;font-weight:700;line-height:1.2;letter-spacing:0em;text-align:center;text-transform:none;color:rgba(0,0,0,1);}.e196-69.x-text .x-text-content-text-primary {margin:0 calc(0em * -1) 0 0;font-family:"Poppins",sans-serif;font-size:1.1em;font-style:normal;font-weight:500;line-height:1.2;letter-spacing:0em;text-align:left;text-transform:none;color:rgb(4,7,13);}.e196-75.x-text .x-text-content-text-primary {margin:0 calc(0em * -1) 0 0;font-family:"Poppins",sans-serif;font-size:1em;font-style:normal;font-weight:500;line-height:1.2;letter-spacing:0em;text-align:left;text-transform:none;color:rgb(4,7,13);}.e196-81.x-text .x-text-content-text-primary {margin:0 calc(0em * -1) 0 0;font-family:"Poppins",sans-serif;font-size:1em;font-style:normal;font-weight:500;line-height:1.2;letter-spacing:0em;text-align:left;text-transform:none;color:rgb(4,7,13);}.e196-87.x-text .x-text-content-text-primary {margin:0 calc(0em * -1) 0 0;font-family:"Poppins",sans-serif;font-size:1em;font-style:normal;font-weight:500;line-height:1.2;letter-spacing:0em;text-align:left;text-transform:none;color:rgb(4,7,13);}.e196-93.x-text .x-text-content-text-primary {margin:0 calc(0em * -1) 0 0;font-family:"Poppins",sans-serif;font-size:1em;font-style:normal;font-weight:500;line-height:1.2;letter-spacing:0em;text-align:left;text-transform:none;color:rgb(4,7,13);}.e196-100.x-text .x-text-content-text-primary {margin:0 calc(0em * -1) 0 0;font-family:"Poppins",sans-serif;font-size:1em;font-style:normal;font-weight:500;line-height:1.2;letter-spacing:0em;text-align:left;text-transform:none;color:rgb(4,7,13);}.e196-106.x-text .x-text-content-text-primary {margin:0 calc(0em * -1) 0 0;font-family:"Poppins",sans-serif;font-size:1em;font-style:normal;font-weight:500;line-height:1.2;letter-spacing:0em;text-align:left;text-transform:none;color:rgb(4,7,13);}.e196-112.x-text .x-text-content-text-primary {margin:0 calc(0em * -1) 0 0;font-family:"Poppins",sans-serif;font-size:1em;font-style:normal;font-weight:500;line-height:1.2;letter-spacing:0em;text-align:left;text-transform:none;color:rgb(4,7,13);}.e196-118.x-text .x-text-content-text-primary {margin:0 calc(0em * -1) 0 0;font-family:"Poppins",sans-serif;font-size:1em;font-style:normal;font-weight:500;line-height:1.2;letter-spacing:0em;text-align:left;text-transform:none;color:rgb(4,7,13);}.e196-124.x-text .x-text-content-text-primary {margin:0 calc(0em * -1) 0 0;font-family:"Poppins",sans-serif;font-size:1em;font-style:normal;font-weight:500;line-height:1.2;letter-spacing:0em;text-align:left;text-transform:none;color:rgb(4,7,13);}.e196-28.x-text .x-text-content-text-subheadline {margin:0.35em calc(0em * -1) 0 0;font-family:"Source Code Pro",monospace;font-size:.5em;font-style:normal;font-weight:400;line-height:1.4;letter-spacing:0em;text-transform:none;color:rgba(0,0,0,1);}.e196-33.x-text .x-text-content-text-subheadline {margin:0.35em calc(0em * -1) 0 0;font-family:"Source Code Pro",monospace;font-size:.5em;font-style:normal;font-weight:400;line-height:1.4;letter-spacing:0em;text-transform:none;color:rgba(0,0,0,1);}.e196-38.x-text .x-text-content-text-subheadline {margin:0.35em calc(0em * -1) 0 0;font-family:"Source Code Pro",monospace;font-size:.5em;font-style:normal;font-weight:400;line-height:1.4;letter-spacing:0em;text-transform:none;color:rgba(0,0,0,1);}.e196-44.x-text .x-text-content-text-subheadline {margin:0.35em calc(0em * -1) 0 0;font-family:"Source Code Pro",monospace;font-size:.5em;font-style:normal;font-weight:400;line-height:1.4;letter-spacing:0em;text-transform:none;color:rgba(0,0,0,1);}.e196-49.x-text .x-text-content-text-subheadline {margin:0.35em calc(0em * -1) 0 0;font-family:"Source Code Pro",monospace;font-size:.5em;font-style:normal;font-weight:400;line-height:1.4;letter-spacing:0em;text-transform:none;color:rgba(0,0,0,1);}.e196-54.x-text .x-text-content-text-subheadline {margin:0.35em calc(0em * -1) 0 0;font-family:"Source Code Pro",monospace;font-size:.5em;font-style:normal;font-weight:400;line-height:1.4;letter-spacing:0em;text-transform:none;color:rgba(0,0,0,1);}.e196-28.x-text .x-graphic {margin:0em 0.5em 0em 0em;}.e196-33.x-text .x-graphic {margin:0em 0.5em 0em 0em;}.e196-38.x-text .x-graphic {margin:0em 0.5em 0em 0em;}.e196-44.x-text .x-graphic {margin:0em 0.5em 0em 0em;}.e196-49.x-text .x-graphic {margin:0em 0.5em 0em 0em;}.e196-54.x-text .x-graphic {margin:0em 0.5em 0em 0em;}.e196-28.x-text .x-graphic-icon {width:1em;height:1em;line-height:1em;font-size:1em;color:rgb(4,7,13);background-color:transparent;}.e196-33.x-text .x-graphic-icon {width:1em;height:1em;line-height:1em;font-size:1em;color:rgb(4,7,13);background-color:transparent;}.e196-38.x-text .x-graphic-icon {width:1em;height:1em;line-height:1em;font-size:1em;color:rgba(0,0,0,1);background-color:transparent;}.e196-44.x-text .x-graphic-icon {width:1em;height:1em;line-height:1em;font-size:1em;color:rgba(0,0,0,1);background-color:transparent;}.e196-49.x-text .x-graphic-icon {width:1em;height:1em;line-height:1em;font-size:1em;color:rgba(0,0,0,1);background-color:transparent;}.e196-54.x-text .x-graphic-icon {width:1em;height:1em;line-height:1em;font-size:1em;color:rgba(0,0,0,1);background-color:transparent;}.e196-10.x-image {border-width:5px;border-style:solid;border-color:rgb(255,255,255);background-color:transparent;box-shadow:0em 2em 5em .5em rgba(0,0,0,0.16);}.e196-68.x-image {border-width:1px;border-style:solid;border-color:rgba(104,106,110,0.17);background-color:rgb(255,255,255);}.e196-74.x-image {border-width:1px;border-style:solid;border-color:rgba(104,106,110,0.17);background-color:rgb(255,255,255);}.e196-80.x-image {border-width:1px;border-style:solid;border-color:rgba(104,106,110,0.17);background-color:rgb(255,255,255);}.e196-86.x-image {border-width:1px;border-style:solid;border-color:rgba(104,106,110,0.17);background-color:rgb(255,255,255);}.e196-92.x-image {border-width:1px;border-style:solid;border-color:rgba(104,106,110,0.17);background-color:rgba(255,255,255,0);}.e196-99.x-image {border-width:1px;border-style:solid;border-color:rgba(104,106,110,0.17);background-color:rgb(255,255,255);}.e196-105.x-image {border-width:1px;border-style:solid;border-color:rgba(104,106,110,0.17);background-color:rgb(255,255,255);}.e196-111.x-image {border-width:1px;border-style:solid;border-color:rgba(104,106,110,0.17);background-color:rgb(255,255,255);}.e196-117.x-image {border-width:1px;border-style:solid;border-color:rgba(104,106,110,0.17);background-color:rgb(255,255,255);}.e196-123.x-image {border-width:1px;border-style:solid;border-color:rgba(104,106,110,0.17);background-color:rgb(255,255,255);}.e196-2.x-container {margin:5em auto 0em auto;text-align:left;background-color:transparent;z-index:1;}.e196-12.x-container {margin:0em auto 0em auto;background-color:transparent;z-index:1;}.e196-17.x-container {margin:0em auto 0em auto;text-align:center;background-color:rgba(239,102,59,0);z-index:1;}.e196-26.x-container {margin:1em auto 1em auto;background-color:transparent;z-index:1;}.e196-42.x-container {margin:0em auto 0em auto;background-color:transparent;z-index:1;}.e196-59.x-container {margin:0em auto 0em auto;background-color:transparent;z-index:1;}.e196-66.x-container {margin:0em auto 0em auto;padding:0em 2em 0em 2em;background-color:transparent;z-index:9999;}.e196-97.x-container {margin:0em auto 0em auto;padding:0em 2em 0em 2em;background-color:transparent;z-index:9999;}.e196-129.x-container {margin:0em auto 0em auto;background-color:transparent;z-index:1;}.e196-1.x-section {margin:0em 0em 0em 0em;padding:100px 50px 100px 50px;background-color:#080B0F;z-index:9998;}.e196-11.x-section {margin:0em;padding:75px 45px 75px 45px;background-color:rgb(250,250,250);z-index:1;}.e196-16.x-section {margin:0em;padding:0px 0px 0px 0px;text-align:center;background-color:rgb(255,255,255);z-index:1;}.e196-25.x-section {margin:0em;padding:25px 75px 50px 75px;background-color:rgb(255,255,255);z-index:9998;}.e196-58.x-section {margin:0em 0em 0px 0em;padding:100px 50px 100px 50px;background-color:transparent;z-index:9998;}.e196-128.x-section {margin:0em;padding:0px;background-color:transparent;z-index:1;}.e196-5.x-text {margin:0em;padding:.2em 0em .2em 0em;font-family:"Poppins",sans-serif;font-size:1.6em;font-style:normal;font-weight:300;line-height:1.3;letter-spacing:0em;text-transform:none;color:#ececec;background-color:transparent;}.e196-6.x-text {margin:0em;padding:.2em 0em 1em 0em;font-family:"Poppins",sans-serif;font-size:1.2em;font-style:normal;font-weight:100;line-height:1.4;letter-spacing:0em;text-transform:none;color:#ececec;background-color:transparent;}.e196-15.x-text {margin:0em 0em 2em 0em;padding:0em;font-family:"Poppins",sans-serif;font-size:1.2rem;font-style:normal;font-weight:400;line-height:1.4;letter-spacing:0em;text-align:left;text-transform:none;color:rgba(0,0,0,1);background-color:transparent;-webkit-columns:8em 2;columns:8em 2;-webkit-column-gap:8rem;column-gap:8rem;-webkit-column-rule:2px dotted hsla(0,0%,0%,0.15);column-rule:2px dotted hsla(0,0%,0%,0.15);}.e196-29.x-text {margin:0em;padding:1em 0em 0em 0em;font-family:"Source Code Pro",monospace;font-size:1em;font-style:normal;font-weight:300;line-height:1.4;letter-spacing:0em;text-transform:none;color:rgb(26,115,249);background-color:transparent;}.e196-30.x-text {margin:1em 0em 0em 0em;padding:0em 0em 0.5em 0em;font-family:"Poppins",sans-serif;font-size:1em;font-style:normal;font-weight:400;line-height:1.4;letter-spacing:0em;text-transform:none;color:rgb(104,106,110);background-color:transparent;}.e196-34.x-text {margin:0em;padding:1em 0em 0em 0em;font-family:"Source Code Pro",monospace;font-size:1em;font-style:normal;font-weight:300;line-height:1.4;letter-spacing:0em;text-transform:none;color:rgb(26,115,249);background-color:transparent;}.e196-35.x-text {margin:1em 0em 0em 0em;padding:0em 0em 0.5em 0em;font-family:"Poppins",sans-serif;font-size:1em;font-style:normal;font-weight:400;line-height:1.4;letter-spacing:0em;text-transform:none;color:rgb(104,106,110);background-color:transparent;}.e196-39.x-text {margin:0em;padding:1em 0em 0em 0em;font-family:"Source Code Pro",monospace;font-size:1em;font-style:normal;font-weight:300;line-height:1.4;letter-spacing:0em;text-transform:none;color:rgb(26,115,249);background-color:transparent;}.e196-40.x-text {margin:1em 0em 0em 0em;padding:0em 0em 0.5em 0em;font-family:"Poppins",sans-serif;font-size:1em;font-style:normal;font-weight:400;line-height:1.4;letter-spacing:0em;text-transform:none;color:rgb(104,106,110);background-color:transparent;}.e196-45.x-text {margin:0em;padding:1em 0em 0em 0em;font-family:"Source Code Pro",monospace;font-size:1em;font-style:normal;font-weight:300;line-height:1.4;letter-spacing:0em;text-transform:none;color:rgb(26,115,249);background-color:transparent;}.e196-46.x-text {margin:1em 0em 0em 0em;padding:0em 0em 0.5em 0em;font-family:"Poppins",sans-serif;font-size:1em;font-style:normal;font-weight:400;line-height:1.4;letter-spacing:0em;text-transform:none;color:rgb(104,106,110);background-color:transparent;}.e196-50.x-text {margin:0em;padding:1em 0em 0em 0em;font-family:"Source Code Pro",monospace;font-size:1em;font-style:normal;font-weight:300;line-height:1.4;letter-spacing:0em;text-transform:none;color:rgb(26,115,249);background-color:transparent;}.e196-51.x-text {margin:1em 0em 0em 0em;padding:0em 0em 0.5em 0em;font-family:"Poppins",sans-serif;font-size:1em;font-style:normal;font-weight:400;line-height:1.4;letter-spacing:0em;text-transform:none;color:rgb(104,106,110);background-color:transparent;}.e196-55.x-text {margin:0em;padding:01em 0em 0em 0em;font-family:"Source Code Pro",monospace;font-size:1em;font-style:normal;font-weight:300;line-height:1.4;letter-spacing:0em;text-transform:none;color:rgb(26,115,249);background-color:transparent;}.e196-56.x-text {margin:1em 0em 0em 0em;padding:0em 0em 0.5em 0em;font-family:"Poppins",sans-serif;font-size:1em;font-style:normal;font-weight:400;line-height:1.4;letter-spacing:0em;text-transform:none;color:rgb(104,106,110);background-color:transparent;}.e196-62.x-text {margin:0em;padding:0em;font-family:"Poppins",sans-serif;font-size:1.2em;font-style:normal;font-weight:400;line-height:1.4;letter-spacing:0em;text-align:center;text-transform:none;color:rgba(0,0,0,1);background-color:transparent;}.e196-64.x-text {margin:0em;padding:0em;font-family:"Source Code Pro",monospace;font-size:1.2em;font-style:normal;font-weight:300;line-height:1.4;letter-spacing:0em;text-align:center;text-transform:none;color:rgb(4,7,13);background-color:transparent;}.e196-70.x-text {margin:0em;padding:0em;font-family:"Source Code Pro",monospace;font-size:1em;font-style:normal;font-weight:400;line-height:1.4;letter-spacing:0em;text-transform:none;color:rgba(0,0,0,1);background-color:transparent;}.e196-76.x-text {margin:0em;padding:0em;font-family:"Source Code Pro",monospace;font-size:1em;font-style:normal;font-weight:400;line-height:1.4;letter-spacing:0em;text-transform:none;color:rgba(0,0,0,1);background-color:transparent;}.e196-82.x-text {margin:0em;padding:0em;font-family:"Source Code Pro",monospace;font-size:1em;font-style:normal;font-weight:400;line-height:1.4;letter-spacing:0em;text-transform:none;color:rgba(0,0,0,1);background-color:transparent;}.e196-88.x-text {margin:0em;padding:0em;font-family:"Source Code Pro",monospace;font-size:1em;font-style:normal;font-weight:400;line-height:1.4;letter-spacing:0em;text-transform:none;color:rgba(0,0,0,1);background-color:transparent;}.e196-94.x-text {margin:0em;padding:0em;font-family:"Source Code Pro",monospace;font-size:1em;font-style:normal;font-weight:400;line-height:1.4;letter-spacing:0em;text-transform:none;color:rgba(0,0,0,1);background-color:transparent;}.e196-101.x-text {margin:0em;padding:0em;font-family:"Source Code Pro",monospace;font-size:1em;font-style:normal;font-weight:400;line-height:1.4;letter-spacing:0em;text-transform:none;color:rgba(0,0,0,1);background-color:transparent;}.e196-107.x-text {margin:0em;padding:0em;font-family:"Source Code Pro",monospace;font-size:1em;font-style:normal;font-weight:400;line-height:1.4;letter-spacing:0em;text-transform:none;color:rgba(0,0,0,1);background-color:transparent;}.e196-113.x-text {margin:0em;padding:0em;font-family:"Source Code Pro",monospace;font-size:1em;font-style:normal;font-weight:400;line-height:1.4;letter-spacing:0em;text-transform:none;color:rgba(0,0,0,1);background-color:transparent;}.e196-119.x-text {margin:0em;padding:0em;font-family:"Source Code Pro",monospace;font-size:1em;font-style:normal;font-weight:400;line-height:1.4;letter-spacing:0em;text-transform:none;color:rgba(0,0,0,1);background-color:transparent;}.e196-125.x-text {margin:0em;padding:0em;font-family:"Source Code Pro",monospace;font-size:1em;font-style:normal;font-weight:400;line-height:1.4;letter-spacing:0em;text-transform:none;color:rgba(0,0,0,1);background-color:transparent;}.e196-5.x-text > :first-child {margin-top:0;}.e196-6.x-text > :first-child {margin-top:0;}.e196-15.x-text > :first-child {margin-top:0;}.e196-29.x-text > :first-child {margin-top:0;}.e196-30.x-text > :first-child {margin-top:0;}.e196-34.x-text > :first-child {margin-top:0;}.e196-35.x-text > :first-child {margin-top:0;}.e196-39.x-text > :first-child {margin-top:0;}.e196-40.x-text > :first-child {margin-top:0;}.e196-45.x-text > :first-child {margin-top:0;}.e196-46.x-text > :first-child {margin-top:0;}.e196-50.x-text > :first-child {margin-top:0;}.e196-51.x-text > :first-child {margin-top:0;}.e196-55.x-text > :first-child {margin-top:0;}.e196-56.x-text > :first-child {margin-top:0;}.e196-62.x-text > :first-child {margin-top:0;}.e196-64.x-text > :first-child {margin-top:0;}.e196-70.x-text > :first-child {margin-top:0;}.e196-76.x-text > :first-child {margin-top:0;}.e196-82.x-text > :first-child {margin-top:0;}.e196-88.x-text > :first-child {margin-top:0;}.e196-94.x-text > :first-child {margin-top:0;}.e196-101.x-text > :first-child {margin-top:0;}.e196-107.x-text > :first-child {margin-top:0;}.e196-113.x-text > :first-child {margin-top:0;}.e196-119.x-text > :first-child {margin-top:0;}.e196-125.x-text > :first-child {margin-top:0;}.e196-5.x-text > :last-child {margin-bottom:0;}.e196-6.x-text > :last-child {margin-bottom:0;}.e196-15.x-text > :last-child {margin-bottom:0;}.e196-29.x-text > :last-child {margin-bottom:0;}.e196-30.x-text > :last-child {margin-bottom:0;}.e196-34.x-text > :last-child {margin-bottom:0;}.e196-35.x-text > :last-child {margin-bottom:0;}.e196-39.x-text > :last-child {margin-bottom:0;}.e196-40.x-text > :last-child {margin-bottom:0;}.e196-45.x-text > :last-child {margin-bottom:0;}.e196-46.x-text > :last-child {margin-bottom:0;}.e196-50.x-text > :last-child {margin-bottom:0;}.e196-51.x-text > :last-child {margin-bottom:0;}.e196-55.x-text > :last-child {margin-bottom:0;}.e196-56.x-text > :last-child {margin-bottom:0;}.e196-62.x-text > :last-child {margin-bottom:0;}.e196-64.x-text > :last-child {margin-bottom:0;}.e196-70.x-text > :last-child {margin-bottom:0;}.e196-76.x-text > :last-child {margin-bottom:0;}.e196-82.x-text > :last-child {margin-bottom:0;}.e196-88.x-text > :last-child {margin-bottom:0;}.e196-94.x-text > :last-child {margin-bottom:0;}.e196-101.x-text > :last-child {margin-bottom:0;}.e196-107.x-text > :last-child {margin-bottom:0;}.e196-113.x-text > :last-child {margin-bottom:0;}.e196-119.x-text > :last-child {margin-bottom:0;}.e196-125.x-text > :last-child {margin-bottom:0;}.entry-wrap{display:block;padding:60px;background-color:#fff;border-radius:4px;box-shadow:0 0 0 0 rgba(0,0,0,0.135);}</style><link rel="stylesheet" href="//fonts.googleapis.com/css?family=Gothic+A1:400,400i,700,700i%7CSource+Code+Pro:400,300,700,200,900,600,500,200i,300i,400i,500i,600i,700i,900i%7CPT+Sans:700,700i,400,400i%7CPoppins:700,700i,200,200i,100,100i,300,300i,400,400i,500,500i,600,600i,800,800i&subset=latin,latin-ext&display=auto" type="text/css" media="all" data-x-google-fonts></head><body class="page-template page-template-template-blank-4 page-template-template-blank-4-php page page-id-196 x-integrity x-integrity-light x-full-width-layout-active x-full-width-active x-page-title-disabled x-child-theme-active pro-v3_1_1 cornerstone-v4_1_1">
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T9V2SR9" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+
+  
+  
+  <div id="x-root" class="x-root">
+
+    
+    <div id="x-site" class="x-site site">
+
+    
+
+  <header class="x-masthead" role="banner"><div class="e210-1 x-bar x-bar-top x-bar-h x-bar-absolute  x-hide-xs" data-x-bar='{"id":"e210-1","region":"top","height":"75px"}' id="home">
+
+    
+<div class="x-bg" aria-hidden="true">
+    </div>
+
+  <div class="e210-1 x-bar-scroll x-bar-outer-spacers" data-x-scrollbar='{"suppressScrollY":true}'>    <div class="e210-1 x-bar-content">
+      
+<div class="e210-2 x-bar-container">
+
+  
+  
+<a class="e210-3 x-image" href="https://blainejohnson.github.io/build/">
+  <img alt="build.OMG" src="https://blainejohnson.github.io/wp-content/uploads/2019/11/on-fire-44.png" width="44" height="44"></a>
+
+<a class="e210-4 x-anchor x-anchor-toggle  x-hide-lg x-hide-md x-hide-sm x-hide-xl x-hide-xs" tabindex="0" data-x-toggle="1" data-x-toggleable="e210-4" aria-controls="e210-4-modal" aria-expanded="false" aria-haspopup="true" aria-label="Toggle Modal Content">
+
+  
+  <div class="x-anchor-content">
+    
+<span class="x-graphic" aria-hidden="true">
+
+  
+<span class="x-toggle x-toggle-burger x-graphic-toggle" aria-hidden="true">
+
+  
+    <span class="x-toggle-burger-bun-t" data-x-toggle-anim="x-bun-t-1"></span>
+    <span class="x-toggle-burger-patty" data-x-toggle-anim="x-patty-1"></span>
+    <span class="x-toggle-burger-bun-b" data-x-toggle-anim="x-bun-b-1"></span>
+
+  
+</span>
+</span>
+          </div>
+
+    
+  
+</a>
+
+<div class="e210-5 x-text">
+  <p><span style="color: #ffffff;"><span style="text-decoration: underline;"><a href="https://rinkeby.etherscan.io/token/tokenholderchart/0xcf425373b942f38bd60b0a67a39a617ab6215782" style="color: #ffffff; text-decoration: underline;" target="_blank" rel="noopener"><span style="color: #ffffff; text-decoration: underline;">131 FIRE tokens</span></a></span> in circulation</span></p></div>
+
+</div>
+
+<div class="e210-6 x-bar-container">
+
+  
+  
+<div class="e210-7 x-text x-text-headline" data-x-element="text_type" data-x-params='{"strings":["core","education","support ","community","tokenomy","tooling"],"type_speed":1,"back_speed":1,"start_delay":3000,"back_delay":3000,"loop":true,"show_cursor":true,"cursor":"|"}'>
+  <div class="x-text-content">
+<span class="x-graphic" aria-hidden="true">
+
+  
+<i class="x-icon x-graphic-icon x-graphic-primary" aria-hidden="true" data-x-icon-s=""></i>
+
+</span>
+<div class="x-text-content-text"><span class="x-text-content-text-subheadline"><a href="#get-involved"><span style="color: #ffffff;">Get Involved!</span></a></span><span class="x-text-content-text-primary">#<span class="x-text-typing"></span></span></div></div></div>
+
+</div>
+
+<div class="e210-8 x-bar-container">
+
+  
+  
+<a class="e210-9 x-anchor x-anchor-toggle" tabindex="0" data-x-toggle="1" data-x-toggleable="e210-9" aria-controls="e210-9-off-canvas" aria-expanded="false" aria-haspopup="true" aria-label="Toggle Off Canvas Content">
+
+  
+  <div class="x-anchor-content">
+    
+<span class="x-graphic" aria-hidden="true">
+
+  
+<i class="x-icon x-graphic-icon x-graphic-primary" aria-hidden="true" data-x-icon-s=""></i>
+
+</span>
+          </div>
+
+    
+  
+</a>
+
+</div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="e210-10 x-bar x-bar-top x-bar-h x-bar-relative  x-hide-lg x-hide-md x-hide-sm x-hide-xl x-bar-outer-spacers" data-x-bar='{"id":"e210-10","region":"top","height":"75px"}'>
+
+    
+<div class="x-bg" aria-hidden="true">
+  <div class="x-bg-layer-lower-color" style=" background-color: rgb(4, 7, 13);"></div>  </div>
+
+      <div class="e210-10 x-bar-content">
+      
+<div class="e210-11 x-bar-container">
+
+  
+  
+<a class="e210-12 x-image" href="https://buildOMG.org/">
+  <img alt="OmiseGO" src="https://blainejohnson.github.io/wp-content/uploads/2019/11/on-fire-square.png" width="115" height="115"></a>
+
+<div class="e210-13 x-text x-text-headline" data-x-element="text_type" data-x-params='{"strings":["core","education","support ","community","tokenomy","tooling"],"type_speed":0,"back_speed":0,"start_delay":3000,"back_delay":3000,"loop":true,"show_cursor":true,"cursor":"|"}'>
+  <div class="x-text-content">
+<span class="x-graphic" aria-hidden="true">
+
+  
+<i class="x-icon x-graphic-icon x-graphic-primary" aria-hidden="true" data-x-icon-s=""></i>
+
+</span>
+<div class="x-text-content-text"><span class="x-text-content-text-subheadline"><span style="color: #ffffff;"><a href="#get-involved" style="color: #ffffff;">Get Involved</a></span></span><span class="x-text-content-text-primary">#<span class="x-text-typing"></span></span></div></div></div>
+
+<a class="e210-14 x-anchor x-anchor-toggle  x-hide-lg x-hide-md x-hide-sm x-hide-xl x-hide-xs" tabindex="0" data-x-toggle="1" data-x-toggleable="e210-14" aria-controls="e210-14-modal" aria-expanded="false" aria-haspopup="true" aria-label="Toggle Modal Content">
+
+  
+  <div class="x-anchor-content">
+    
+<span class="x-graphic" aria-hidden="true">
+
+  
+<span class="x-toggle x-toggle-burger x-graphic-toggle" aria-hidden="true">
+
+  
+    <span class="x-toggle-burger-bun-t" data-x-toggle-anim="x-bun-t-1"></span>
+    <span class="x-toggle-burger-patty" data-x-toggle-anim="x-patty-1"></span>
+    <span class="x-toggle-burger-bun-b" data-x-toggle-anim="x-bun-b-1"></span>
+
+  
+</span>
+</span>
+          </div>
+
+    
+  
+</a>
+
+</div>
+    </div>
+  
+</div>
+
+
+
+
+<div class="e210-15 x-bar x-bar-top x-bar-h x-bar-absolute x-bar-is-sticky x-bar-is-initially-hidden x-bar-outer-spacers" data-x-bar='{"id":"e210-15","region":"top","height":"75px","hideInitially":true,"triggerOffset":"0","triggerSelector":"#mission","shrink":"1"}'>
+
+    
+      <div class="e210-15 x-bar-content">
+      
+<div class="e210-16 x-bar-container">
+
+  
+  
+<a class="e210-17 x-image" href="https://7c0247f520059885cf8ab.admin.hardypress.com/">
+  <img alt="OmiseGO" src="https://blainejohnson.github.io/wp-content/uploads/2019/11/on-fire-44-1.png" width="44" height="44"></a>
+
+</div>
+
+<div class="e210-18 x-bar-container">
+
+  
+  
+<div class="e210-19 x-text">
+  <p><span style="color: #999999;"><span style="text-decoration: underline;"><a href="https://rinkeby.etherscan.io/token/tokenholderchart/0xcf425373b942f38bd60b0a67a39a617ab6215782" style="color: #999999; text-decoration: underline;" target="_blank" rel="noopener"><span style="color: #999999; text-decoration: underline;">131 FIRE tokens</span></a></span> in circulation</span></p></div>
+<ul class="e210-20 x-menu x-menu-inline  x-hide-md x-hide-sm x-hide-xs"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18">
+<a class="e210-20 x-anchor x-anchor-menu-item" tabindex="0" href="#omg">
+
+  
+  <div class="x-anchor-content">
+        <div class="x-anchor-text"><span class="x-anchor-text-primary">Why OMG?</span></div>    <i class="x-anchor-sub-indicator" data-x-skip-scroll="true" aria-hidden="true" data-x-icon-s=""></i>  </div>
+
+    
+  
+</a>
+</li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-19">
+<a class="e210-20 x-anchor x-anchor-menu-item" tabindex="0" href="#shortcut">
+
+  
+  <div class="x-anchor-content">
+        <div class="x-anchor-text"><span class="x-anchor-text-primary">Scale Ethereum</span></div>    <i class="x-anchor-sub-indicator" data-x-skip-scroll="true" aria-hidden="true" data-x-icon-s=""></i>  </div>
+
+    
+  
+</a>
+</li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-136">
+<a class="e210-20 x-anchor x-anchor-menu-item" tabindex="0" href="#shortcut">
+
+  
+  <div class="x-anchor-content">
+        <div class="x-anchor-text"><span class="x-anchor-text-primary">Blog</span></div>    <i class="x-anchor-sub-indicator" data-x-skip-scroll="true" aria-hidden="true" data-x-icon-s=""></i>  </div>
+
+    
+  
+</a>
+</li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21">
+<a class="e210-20 x-anchor x-anchor-menu-item" tabindex="0" href="#shortcut">
+
+  
+  <div class="x-anchor-content">
+        <div class="x-anchor-text"><span class="x-anchor-text-primary">Forum</span></div>    <i class="x-anchor-sub-indicator" data-x-skip-scroll="true" aria-hidden="true" data-x-icon-s=""></i>  </div>
+
+    
+  
+</a>
+</li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-135">
+<a class="e210-20 x-anchor x-anchor-menu-item" tabindex="0" target="_blank" href="https://developer.omisego.co/">
+
+  
+  <div class="x-anchor-content">
+        <div class="x-anchor-text"><span class="x-anchor-text-primary">Developers</span></div>    <i class="x-anchor-sub-indicator" data-x-skip-scroll="true" aria-hidden="true" data-x-icon-s=""></i>  </div>
+
+    
+  
+</a>
+</li></ul><a class="e210-21 x-anchor x-anchor-toggle  x-hide-lg x-hide-md x-hide-xl" tabindex="0" data-x-toggle="1" data-x-toggleable="e210-21" aria-controls="e210-21-modal" aria-expanded="false" aria-haspopup="true" aria-label="Toggle Modal Content">
+
+  
+  <div class="x-anchor-content">
+    
+<span class="x-graphic" aria-hidden="true">
+
+  
+<span class="x-toggle x-toggle-burger x-graphic-toggle" aria-hidden="true">
+
+  
+    <span class="x-toggle-burger-bun-t" data-x-toggle-anim="x-bun-t-1"></span>
+    <span class="x-toggle-burger-patty" data-x-toggle-anim="x-patty-1"></span>
+    <span class="x-toggle-burger-bun-b" data-x-toggle-anim="x-bun-b-1"></span>
+
+  
+</span>
+</span>
+          </div>
+
+    
+  
+</a>
+
+</div>
+
+<div class="e210-22 x-bar-container">
+
+  
+  
+<a class="e210-23 x-anchor x-anchor-toggle" tabindex="0" data-x-toggle="1" data-x-toggleable="e210-23" aria-controls="e210-23-off-canvas" aria-expanded="false" aria-haspopup="true" aria-label="Toggle Off Canvas Content">
+
+  
+  <div class="x-anchor-content">
+    
+<span class="x-graphic" aria-hidden="true">
+
+  
+<i class="x-icon x-graphic-icon x-graphic-primary" aria-hidden="true" data-x-icon-s=""></i>
+
+</span>
+          </div>
+
+    
+  
+</a>
+
+</div>
+    </div>
+  
+</div>
+
+
+
+    
+  </header><div class="x-main full" role="main">
+
+    
+      <article id="post-196" class="post-196 page type-page status-publish hentry no-post-thumbnail"><div class="entry-content content">
+
+
+  <div id="cs-content" class="cs-content">
+<div class="e196-1 x-section" id="buildOMG">
+    
+<div class="x-bg" aria-hidden="true">
+  <div class="x-bg-layer-lower-image" data-x-element="bg_layer" data-x-params='{"parallaxSize":"150%","parallaxDir":"v","parallaxRev":false}' style=" background-image: url(https://blainejohnson.github.io/wp-content/uploads/2019/11/geometry-grid-feature-01.jpg); background-repeat: repeat; background-position: none; background-size: cover;"></div>  <div class="x-bg-layer-upper-color" style=" background-color: rgba(4, 7, 13, 0.67);"></div></div>
+  
+<div class="e196-2 x-container max width">
+    
+<div class="e196-3 x-column x-sm x-1-2">
+    
+<div class="e196-4 x-text x-text-headline">
+  <div class="x-text-content"><div class="x-text-content-text"><h1 class="x-text-content-text-primary">build.OMG </h1></div></div></div>
+
+<div class="e196-5 x-text">
+  Whether you are a developer, a blockchain expert or decentralized finance enthusiast or just like helping out, you are welcome to help make OMG even better.</div>
+
+<div class="e196-6 x-text">
+  If you want to get involved in building the OMG Network, this is the place to be. We have entry points for various themes, and anyone is free to join a group at any time.</div>
+
+<a class="e196-7 x-anchor x-anchor-button" tabindex="0" href="#get-involved">
+
+  
+  <div class="x-anchor-content">
+        <div class="x-anchor-text"><span class="x-anchor-text-primary">Let's GO!</span></div>      </div>
+
+    
+  
+</a>
+
+<a class="e196-8 x-anchor x-anchor-button  x-hide-lg x-hide-md x-hide-sm x-hide-xl x-hide-xs" tabindex="0" href="mailto:support@buildomg.org">
+
+  
+  <div class="x-anchor-content">
+        <div class="x-anchor-text"><span class="x-anchor-text-primary">Get Involved</span></div>      </div>
+
+    
+  
+</a>
+</div>
+
+<div class="e196-9 x-column x-sm x-1-2">
+    
+<span class="e196-10 x-image  x-hide-sm x-hide-xs">
+  <img alt="Image" src="https://blainejohnson.github.io/wp-content/uploads/2019/11/3.jpeg" width="1600" height="1200"></span>
+</div>
+</div>
+  </div>
+
+<div class="e196-11 x-section  x-hide-sm x-hide-xs" id="mission">
+      
+<div class="e196-12 x-container max width">
+    
+<div class="e196-13 x-column x-sm x-1-1">
+    
+<div class="e196-14 x-text x-text-headline">
+  <div class="x-text-content"><div class="x-text-content-text"><h1 class="x-text-content-text-primary">build.OMG Mission</h1></div></div></div>
+
+<div class="e196-15 x-text">
+  The buildOMG Community is a self-governed organization dedicated to the growth and promotion of the OmiseGO Network, a public good to help secure and scale decentralized financial services across geographies, asset classes and applications.
+<br><br>
+The OMG Network project was launched in 2017 by OmiseGO Pte., Ltd. ("OmiseGO") as a fully open source initiative, publicly funded via ICO. Growing from this initiative, buildOMG has self-organized to advance their common values, interests, and goals. We share a vision with OmiseGO but hope to serve a different and synergistic purpose.<br><br>
+In complement to the efforts of OmiseGO’s dedicated team, buildOMG is currently on a mission to build more educational resources and opportunities to design, improve and maintain the OMG Network. We seek to create a more robust ecosystem by decreasing reliance on any one entity, safeguarding the integrity of the network against any single point of failure.
+<br><br>
+The overall mission of buildOMG shall be to increase adoption of public blockchain financial services and openly distribute the codebase maintenance and general upkeep of the OMG Network among active community contributors. 
+<br><br>
+Source: <a href="https://github.com/buildOMG/" target="_blank">github.com/buildOMG</a></div>
+</div>
+</div>
+  </div>
+
+<div class="e196-16 x-section">
+      
+<div class="e196-17 x-container">
+    
+<div class="e196-18 x-column x-sm x-1-1">
+    
+<div class="e196-19 x-acc" role="tablist" id="x-acc-e196-19">
+  
+<div class="e196-20 x-acc-item" id="learn">
+  <button id="tab-e196-20" class="x-acc-header" role="tab" type="button" aria-selected="false" aria-expanded="false" aria-controls="panel-e196-20" data-x-toggle="collapse" data-x-toggleable="e196-20" data-x-toggle-group="get-involved">
+    <span class="x-acc-header-content">
+            <span class="x-acc-header-text"><b><a href="https://github.com/on-community/ON.Community-Governance-/blob/master/.github/Governance/Materials/Principles.md" target="_blank">In our perspective:</a></b></span>
+    </span>
+  </button>
+  <div id="panel-e196-20" role="tabpanel" aria-hidden="true" aria-labelledby="tab-e196-20" data-x-toggleable="e196-20" data-x-toggle-collapse="1" class="x-collapsed">
+    <div class="x-acc-content">
+      <ul><li>We recognize the tendency and the right of humans to act in their own self interest</li>
+
+<li>We believe in decentralization as a tool for creating positive sum games that benefit all participants</li>
+</ul></div>
+  </div>
+</div>
+</div>
+
+<div class="e196-21 x-acc" role="tablist" id="x-acc-e196-21">
+  
+<div class="e196-22 x-acc-item" id="build">
+  <button id="tab-e196-22" class="x-acc-header" role="tab" type="button" aria-selected="false" aria-expanded="false" aria-controls="panel-e196-22" data-x-toggle="collapse" data-x-toggleable="e196-22" data-x-toggle-group="get-involved">
+    <span class="x-acc-header-content">
+            <span class="x-acc-header-text"><b><a href="https://github.com/on-community/ON.Community-Governance-/blob/master/.github/Governance/Materials/Principles.md" target="_blank">In our technology:</a></b> </span>
+    </span>
+  </button>
+  <div id="panel-e196-22" role="tabpanel" aria-hidden="true" aria-labelledby="tab-e196-22" data-x-toggleable="e196-22" data-x-toggle-collapse="1" class="x-collapsed">
+    <div class="x-acc-content">
+      <ul><li>We seek to build protocols that maximize transparency, usefulness adaptability and efficiency</li>
+
+<li>We are committed to open source development as defined by the <a href="https://opensource.org/osd-annotated" target="_blank">Open Source Initiative</a></li>
+
+<li>We believe that a diversity of backgrounds and interests among contributors results in a better product</li>
+
+<li>We believe in experimentation, including the value of trial and error for the advancement of knowledge</li>
+</ul></div>
+  </div>
+</div>
+</div>
+
+<div class="e196-23 x-acc" role="tablist" id="x-acc-e196-23">
+  
+<div class="e196-24 x-acc-item" id="contribute">
+  <button id="tab-e196-24" class="x-acc-header" role="tab" type="button" aria-selected="false" aria-expanded="false" aria-controls="panel-e196-24" data-x-toggle="collapse" data-x-toggleable="e196-24" data-x-toggle-group="get-involved">
+    <span class="x-acc-header-content">
+            <span class="x-acc-header-text"><b><a href="https://github.com/on-community/ON.Community-Governance-/blob/master/.github/Governance/Materials/Principles.md" target="_blank">In our community:</a></b></span>
+    </span>
+  </button>
+  <div id="panel-e196-24" role="tabpanel" aria-hidden="true" aria-labelledby="tab-e196-24" data-x-toggleable="e196-24" data-x-toggle-collapse="1" class="x-collapsed">
+    <div class="x-acc-content">
+      <ul><li>We value all opinions - whether positive, negative or neutral - as long as they are based on truth</li>
+
+<li>We embrace evolution in our governance processes in order to improve inclusiveness, fairness, effectiveness and efficiency</li>
+
+<li>We pursue clarity, transparency and neutrality in all processes</li>
+
+<li>When allocating resources, we optimize for creating the maximum benefit to the greatest number of participants</li>
+
+<li>We value and respect each other in all communication forms, whether online or in face-to-face discussions</li>
+
+<li>We embrace all human beings regardless of age, ability, sex or gender identity, orientation, religion, ethnicity, social status, education, technical knowledge, political views or any other identifying characteristic; also robots if they are nice</li>
+
+<li>We commit to constructive criticism of each other’s conduct, protecting our fellow human beings from harassment and abuse, and using banishment as a last resort</li>
+</ul></div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+
+<div class="e196-25 x-section" id="get-involved">
+    
+<div class="x-bg" aria-hidden="true">
+  <div class="x-bg-layer-lower-color" style=" background-color: rgb(250, 250, 250);"></div>  </div>
+  
+<div class="e196-26 x-container max width">
+    
+<div class="e196-27 x-column x-sm x-1-3">
+    
+<div class="e196-28 x-text x-text-headline">
+  <div class="x-text-content">
+<span class="x-graphic" aria-hidden="true">
+
+  
+<i class="x-icon x-graphic-icon x-graphic-primary" aria-hidden="true" data-x-icon-s=""></i>
+
+</span>
+<div class="x-text-content-text"><h1 class="x-text-content-text-primary">Core</h1></div></div></div>
+
+<div class="e196-29 x-text">
+  <a href="https://forum.omgnetwork.org/c/core" target="_blank">OMG Network Forum: #core</a></div>
+
+<div class="e196-30 x-text">
+  The core team is mostly the OmiseGO team, but also welcomes outside help. If you are a blockchain developer, you'll be able to contribute to the most technical pieces of the OMG Network architecture by writing code, triaging issues, reviewing pull requests and debating development decisions.</div>
+
+<hr class="e196-31 x-line"></div>
+
+<div class="e196-32 x-column x-sm x-1-3">
+    
+<div class="e196-33 x-text x-text-headline">
+  <div class="x-text-content">
+<span class="x-graphic" aria-hidden="true">
+
+  
+<i class="x-icon x-graphic-icon x-graphic-primary" aria-hidden="true" data-x-icon-s=""></i>
+
+</span>
+<div class="x-text-content-text"><h1 class="x-text-content-text-primary">Education</h1></div></div></div>
+
+<div class="e196-34 x-text">
+  <a href="https://forum.omgnetwork.org/c/education" target="_blank">OMG Network Forum: #education</a></div>
+
+<div class="e196-35 x-text">
+  The education team makes sure the OMG network is accessible by updating the OMG Network Guide, writing technical documentation and preparing focused documents on trending subjects. If you are new to OMG, you're also welcome to join the #education channel to ask questions about the OMG Network. </div>
+
+<hr class="e196-36 x-line"></div>
+
+<div class="e196-37 x-column x-sm x-1-3">
+    
+<div class="e196-38 x-text x-text-headline">
+  <div class="x-text-content">
+<span class="x-graphic" aria-hidden="true">
+
+  
+<i class="x-icon x-graphic-icon x-graphic-primary" aria-hidden="true" data-x-icon-s=""></i>
+
+</span>
+<div class="x-text-content-text"><h1 class="x-text-content-text-primary">Support</h1></div></div></div>
+
+<div class="e196-39 x-text">
+  <a href="https://forum.omgnetwork.org/c/support" target="_blank">OMG Network Forum: #support</a></div>
+
+<div class="e196-40 x-text">
+  In parallel to the education mission, answering the community's questions and concerns is a neverending task that has tremendous importance to welcome fellow OMGers. If you have even a shallow OMG knowledge, it is a great way to start contributing to the community and educate yourself on the way.</div>
+
+<hr class="e196-41 x-line"></div>
+</div>
+
+<div class="e196-42 x-container max width">
+    
+<div class="e196-43 x-column x-sm x-1-3">
+    
+<div class="e196-44 x-text x-text-headline">
+  <div class="x-text-content">
+<span class="x-graphic" aria-hidden="true">
+
+  
+<i class="x-icon x-graphic-icon x-graphic-primary" aria-hidden="true" data-x-icon-s=""></i>
+
+</span>
+<div class="x-text-content-text"><h1 class="x-text-content-text-primary">Community</h1></div></div></div>
+
+<div class="e196-45 x-text">
+  <a href="https://forum.omgnetwork.org/c/community" target="_blank">OMG Network Forum: #community</a></div>
+
+<div class="e196-46 x-text">
+  If meetups and conferences are more your thing, the Community Slack channel is the best place to start. This group intends to support all sort of events to expand our community to new horizons.</div>
+
+<hr class="e196-47 x-line"></div>
+
+<div class="e196-48 x-column x-sm x-1-3">
+    
+<div class="e196-49 x-text x-text-headline">
+  <div class="x-text-content">
+<span class="x-graphic" aria-hidden="true">
+
+  
+<i class="x-icon x-graphic-icon x-graphic-primary" aria-hidden="true" data-x-icon-s=""></i>
+
+</span>
+<div class="x-text-content-text"><h1 class="x-text-content-text-primary">Tokenomy</h1></div></div></div>
+
+<div class="e196-50 x-text">
+  <a href="https://forum.omgnetwork.org/c/tokenomics" target="_blank">OMG Network Forum: #tokenomics</a></div>
+
+<div class="e196-51 x-text">
+  The tokenomy group focuses on making sure the network is healthy by securing the value of the tokens and monitoring its activity. They are also in charge of the different staking challenges.</div>
+
+<hr class="e196-52 x-line"></div>
+
+<div class="e196-53 x-column x-sm x-1-3">
+    
+<div class="e196-54 x-text x-text-headline">
+  <div class="x-text-content">
+<span class="x-graphic" aria-hidden="true">
+
+  
+<i class="x-icon x-graphic-icon x-graphic-primary" aria-hidden="true" data-x-icon-s=""></i>
+
+</span>
+<div class="x-text-content-text"><h1 class="x-text-content-text-primary">Tooling</h1></div></div></div>
+
+<div class="e196-55 x-text">
+  <a href="https://forum.omgnetwork.org/c/tooling" target="_blank">OMG Network Forum: #tooling</a></div>
+
+<div class="e196-56 x-text">
+  Creating the necessary tooling for our the OMG Network community to thrive brings its own set of challenges. Seasoned open source contributors can provide very valuable input here.</div>
+
+<hr class="e196-57 x-line"></div>
+</div>
+  </div>
+
+<div class="e196-58 x-section  x-hide-sm x-hide-xs" id="leaderboard">
+    
+<div class="x-bg" aria-hidden="true">
+  <div class="x-bg-layer-lower-color" style=" background-color: rgb(249, 250, 255);"></div>  </div>
+  
+<div class="e196-59 x-container max width">
+    
+<div class="e196-60 x-column x-sm x-1-1">
+    
+<div class="e196-61 x-text x-text-headline">
+  <div class="x-text-content"><div class="x-text-content-text"><h1 class="x-text-content-text-primary">FIRE Leaderboard</h1></div></div></div>
+
+<div class="e196-62 x-text">
+  Complete tasks and earn FIRE tokens</div>
+
+<a class="e196-63 x-anchor x-anchor-button" tabindex="0" href="https://build.omgnetwork.org/bounty-0/" target="_blank">
+
+  
+  <div class="x-anchor-content">
+        <div class="x-anchor-text"><span class="x-anchor-text-primary">Sign Up</span></div>      </div>
+
+    
+  
+</a>
+
+<div class="e196-64 x-text">
+  <a href="https://rinkeby.etherscan.io/token/tokenholderchart/0xcF425373b942f38BD60b0a67A39a617ab6215782" target="_blank">CIRCULATION: 131 FIRE</a></div>
+
+<hr class="e196-65 x-line"></div>
+</div>
+
+<div class="e196-66 x-container max width">
+    
+<div class="e196-67 x-column x-sm x-1-5">
+    
+<span class="e196-68 x-image">
+  <img alt="Image" src="https://blainejohnson.github.io/wp-content/uploads/2019/11/avatar_default_11_A5A4A4.png" width="256" height="256"></span>
+
+<div class="e196-69 x-text x-text-headline">
+  <div class="x-text-content"><div class="x-text-content-text"><p class="x-text-content-text-primary">ro5s</p></div></div></div>
+
+<div class="e196-70 x-text">
+  Core</div>
+
+<div class="e196-71 x-counter" data-x-element="counter" data-x-params='{"numStart":"0","numEnd":"10","numSpeed":"1.5s","selector":".x-counter-number"}'>
+  <div class="x-counter-number-wrap"><span class="x-counter-number-prefix"><a href="https://rinkeby.etherscan.io/token/0xcF425373b942f38BD60b0a67A39a617ab6215782?a=0x1c0aa8ccd568d90d61659f060d1bfb1e6f855a20" target="_blank">FIRE tokens: </a></span><span class="x-counter-number">0</span><span class="x-counter-number-suffix"> 🔥</span></div></div>
+
+<hr class="e196-72 x-line"></div>
+
+<div class="e196-73 x-column x-sm x-1-5">
+    
+<span class="e196-74 x-image">
+  <img alt="Image" src="https://blainejohnson.github.io/wp-content/uploads/2019/11/kartsims.png" width="256" height="256"></span>
+
+<div class="e196-75 x-text x-text-headline">
+  <div class="x-text-content"><div class="x-text-content-text"><p class="x-text-content-text-primary"><a href="http://omgpool.org/" target="_blank">kartsims</a></p></div></div></div>
+
+<div class="e196-76 x-text">
+  Core</div>
+
+<div class="e196-77 x-counter" data-x-element="counter" data-x-params='{"numStart":"0","numEnd":"10","numSpeed":"1.5s","selector":".x-counter-number"}'>
+  <div class="x-counter-number-wrap"><span class="x-counter-number-prefix"><a href="https://rinkeby.etherscan.io/token/0xcF425373b942f38BD60b0a67A39a617ab6215782?a=0xccd0af6120216dabcf177781e91143793cf9f3cc" target="_blank">FIRE tokens: </a></span><span class="x-counter-number">0</span><span class="x-counter-number-suffix"> 🔥</span></div></div>
+
+<hr class="e196-78 x-line"></div>
+
+<div class="e196-79 x-column x-sm x-1-5">
+    
+<span class="e196-80 x-image">
+  <img alt="Image" src="https://blainejohnson.github.io/wp-content/uploads/2019/11/crypto_analysis2.png" width="256" height="256"></span>
+
+<div class="e196-81 x-text x-text-headline">
+  <div class="x-text-content"><div class="x-text-content-text"><p class="x-text-content-text-primary">cryptoanalysis</p></div></div></div>
+
+<div class="e196-82 x-text">
+  Marketing</div>
+
+<div class="e196-83 x-counter" data-x-element="counter" data-x-params='{"numStart":"0","numEnd":"10","numSpeed":"1.5s","selector":".x-counter-number"}'>
+  <div class="x-counter-number-wrap"><span class="x-counter-number-prefix"><a href="https://rinkeby.etherscan.io/token/tokenholderchart/0xcf425373b942f38bd60b0a67a39a617ab6215782" target="_blank">FIRE tokens: </a></span><span class="x-counter-number">0</span><span class="x-counter-number-suffix"> 🔥</span></div></div>
+
+<hr class="e196-84 x-line"></div>
+
+<div class="e196-85 x-column x-sm x-1-5">
+    
+<span class="e196-86 x-image">
+  <img alt="Image" src="https://blainejohnson.github.io/wp-content/uploads/2019/11/jager_master.png" width="256" height="256"></span>
+
+<div class="e196-87 x-text x-text-headline">
+  <div class="x-text-content"><div class="x-text-content-text"><p class="x-text-content-text-primary">jager_master</p></div></div></div>
+
+<div class="e196-88 x-text">
+  Documentation</div>
+
+<div class="e196-89 x-counter" data-x-element="counter" data-x-params='{"numStart":"0","numEnd":"10","numSpeed":"1.5s","selector":".x-counter-number"}'>
+  <div class="x-counter-number-wrap"><span class="x-counter-number-prefix"><a href="https://rinkeby.etherscan.io/token/0xcF425373b942f38BD60b0a67A39a617ab6215782?a=0x0071eb5795094984f8a9b7f15d5e9aa8e671dec5" target="_blank">FIRE tokens: </a></span><span class="x-counter-number">0</span><span class="x-counter-number-suffix"> 🔥</span></div></div>
+
+<hr class="e196-90 x-line"></div>
+
+<div class="e196-91 x-column x-sm x-1-5">
+    
+<span class="e196-92 x-image">
+  <img alt="Image" src="https://blainejohnson.github.io/wp-content/uploads/2019/11/avatar_default_04_A5A4A4.png" width="256" height="256"></span>
+
+<div class="e196-93 x-text x-text-headline">
+  <div class="x-text-content"><div class="x-text-content-text"><p class="x-text-content-text-primary">snowkidind</p></div></div></div>
+
+<div class="e196-94 x-text">
+  Tooling</div>
+
+<div class="e196-95 x-counter" data-x-element="counter" data-x-params='{"numStart":"0","numEnd":"10","numSpeed":"1.5s","selector":".x-counter-number"}'>
+  <div class="x-counter-number-wrap"><span class="x-counter-number-prefix"><a href="https://rinkeby.etherscan.io/token/0xcF425373b942f38BD60b0a67A39a617ab6215782" target="_blank">FIRE tokens: </a></span><span class="x-counter-number">0</span><span class="x-counter-number-suffix"> 🔥</span></div></div>
+
+<hr class="e196-96 x-line"></div>
+</div>
+
+<div class="e196-97 x-container max width">
+    
+<div class="e196-98 x-column x-sm x-1-5">
+    
+<span class="e196-99 x-image">
+  <img alt="Image" src="https://blainejohnson.github.io/wp-content/uploads/2019/11/carma.png" width="256" height="256"></span>
+
+<div class="e196-100 x-text x-text-headline">
+  <div class="x-text-content"><div class="x-text-content-text"><p class="x-text-content-text-primary">unlimited_cake</p></div></div></div>
+
+<div class="e196-101 x-text">
+  Core</div>
+
+<div class="e196-102 x-counter" data-x-element="counter" data-x-params='{"numStart":"0","numEnd":"1","numSpeed":"1.5s","selector":".x-counter-number"}'>
+  <div class="x-counter-number-wrap"><span class="x-counter-number-prefix"><a href="https://rinkeby.etherscan.io/token/0xcF425373b942f38BD60b0a67A39a617ab6215782" target="_blank">FIRE tokens: </a></span><span class="x-counter-number">0</span><span class="x-counter-number-suffix"> 🔥</span></div></div>
+
+<hr class="e196-103 x-line"></div>
+
+<div class="e196-104 x-column x-sm x-1-5">
+    
+<span class="e196-105 x-image">
+  <img alt="Image" src="https://blainejohnson.github.io/wp-content/uploads/2019/11/avatar_default_07_A5A4A4.png" width="256" height="256"></span>
+
+<div class="e196-106 x-text x-text-headline">
+  <div class="x-text-content"><div class="x-text-content-text"><p class="x-text-content-text-primary">nebali</p></div></div></div>
+
+<div class="e196-107 x-text">
+  Core</div>
+
+<div class="e196-108 x-counter" data-x-element="counter" data-x-params='{"numStart":"0","numEnd":"10","numSpeed":"1.5s","selector":".x-counter-number"}'>
+  <div class="x-counter-number-wrap"><span class="x-counter-number-prefix"><a href="https://rinkeby.etherscan.io/token/0xcF425373b942f38BD60b0a67A39a617ab6215782?a=0x32688364a56440f0d5f6365076374c195b70e999" target="_blank">FIRE tokens: </a></span><span class="x-counter-number">0</span><span class="x-counter-number-suffix"> 🔥</span></div></div>
+
+<hr class="e196-109 x-line"></div>
+
+<div class="e196-110 x-column x-sm x-1-5">
+    
+<span class="e196-111 x-image">
+  <img alt="Image" src="https://blainejohnson.github.io/wp-content/uploads/2019/11/picklednewtons.png" width="256" height="256"></span>
+
+<div class="e196-112 x-text x-text-headline">
+  <div class="x-text-content"><div class="x-text-content-text"><p class="x-text-content-text-primary">saanderson</p></div></div></div>
+
+<div class="e196-113 x-text">
+  Integration</div>
+
+<div class="e196-114 x-counter" data-x-element="counter" data-x-params='{"numStart":"0","numEnd":"10","numSpeed":"1.5s","selector":".x-counter-number"}'>
+  <div class="x-counter-number-wrap"><span class="x-counter-number-prefix"><a href="https://rinkeby.etherscan.io/token/0xcF425373b942f38BD60b0a67A39a617ab6215782" target="_blank">FIRE tokens: </a></span><span class="x-counter-number">0</span><span class="x-counter-number-suffix"> 🔥</span></div></div>
+
+<hr class="e196-115 x-line"></div>
+
+<div class="e196-116 x-column x-sm x-1-5">
+    
+<span class="e196-117 x-image">
+  <img alt="Image" src="https://blainejohnson.github.io/wp-content/uploads/2019/11/pwolf88.png" width="256" height="256"></span>
+
+<div class="e196-118 x-text x-text-headline">
+  <div class="x-text-content"><div class="x-text-content-text"><p class="x-text-content-text-primary"><a href="http://omgpool.org/" target="_blank">pwolf88</a></p></div></div></div>
+
+<div class="e196-119 x-text">
+  Marketing</div>
+
+<div class="e196-120 x-counter" data-x-element="counter" data-x-params='{"numStart":"0","numEnd":"10","numSpeed":"1.5s","selector":".x-counter-number"}'>
+  <div class="x-counter-number-wrap"><span class="x-counter-number-prefix"><a href="https://rinkeby.etherscan.io/token/0xcf425373b942f38bd60b0a67a39a617ab6215782?a=0x105ee4d8a17cc41bf2d2432015a821fe522f7f29" target="_blank">FIRE tokens: </a></span><span class="x-counter-number">0</span><span class="x-counter-number-suffix"> 🔥</span></div></div>
+
+<hr class="e196-121 x-line"></div>
+
+<div class="e196-122 x-column x-sm x-1-5">
+    
+<span class="e196-123 x-image">
+  <img alt="Image" src="https://buildomg.org/wp-content/uploads/tous.png" width="256" height="256"></span>
+
+<div class="e196-124 x-text x-text-headline">
+  <div class="x-text-content"><div class="x-text-content-text"><p class="x-text-content-text-primary">tousthilagavathy</p></div></div></div>
+
+<div class="e196-125 x-text">
+  Documentation</div>
+
+<div class="e196-126 x-counter" data-x-element="counter" data-x-params='{"numStart":"0","numEnd":"10","numSpeed":"1.5s","selector":".x-counter-number"}'>
+  <div class="x-counter-number-wrap"><span class="x-counter-number-prefix"><a href="https://rinkeby.etherscan.io/token/0xcF425373b942f38BD60b0a67A39a617ab6215782?a=0x3cb81cf5795eb412c909432a87a4e75019baab62" target="_blank">FIRE tokens: </a></span><span class="x-counter-number">0</span><span class="x-counter-number-suffix"> 🔥</span></div></div>
+
+<hr class="e196-127 x-line"></div>
+</div>
+  </div>
+
+<div class="e196-128 x-section">
+      
+<div class="e196-129 x-container">
+    
+<div class="e196-130 x-column x-sm x-1-1">
+    <style>.e205-3.x-column {background-color:transparent;z-index:1;}.e205-6.x-column {background-color:transparent;z-index:1;}.e205-10.x-column {background-color:transparent;z-index:1;}.e205-14.x-column {background-color:transparent;z-index:1;}.e205-19.x-column {background-color:transparent;z-index:1;}.e205-23.x-column {background-color:transparent;z-index:1;}.e205-28.x-column {background-color:transparent;z-index:1;}.e205-34.x-column {background-color:transparent;z-index:1;}.e205-38.x-column {background-color:transparent;z-index:1;}.e205-42.x-column {background-color:transparent;z-index:1;}.e205-4.x-text {margin:0em;padding:0em 2em 2em 2em;font-size:1em;background-color:transparent;}.e205-8.x-text {margin:1em 0em 1em 0em;padding:0em;font-size:1em;background-color:transparent;}.e205-12.x-text {margin:1em 0em 1em 0em;padding:0em;font-size:1em;background-color:transparent;}.e205-16.x-text {margin:1em 0em 1em 0em;padding:0em;font-size:1em;background-color:transparent;}.e205-21.x-text {margin:1em 0em 1em 0em;padding:0em;font-size:1em;background-color:transparent;}.e205-25.x-text {margin:1em 0em 1em 0em;padding:0em;font-size:1em;background-color:transparent;}.e205-27.x-text {margin:1em 0em 1em 0em;padding:0em;font-size:1em;background-color:transparent;}.e205-30.x-text {margin:1em 0em 1em 0em;padding:0em;font-size:1em;background-color:transparent;}.e205-32.x-text {margin:1em 0em 1em 0em;padding:0em;font-size:1em;background-color:transparent;}.e205-36.x-text {margin:1em 0em 1em 0em;padding:0em;font-size:1em;background-color:transparent;}.e205-40.x-text {margin:1em 0em 1em 0em;padding:0em;font-size:1em;background-color:transparent;}.e205-44.x-text {margin:1em 0em 1em 0em;padding:0em;font-size:1em;background-color:transparent;}.e205-4.x-text .x-text-content-text-primary {margin:0 calc(0em * -1) 0 0;font-family:"Poppins",sans-serif;font-size:3.3em;font-style:normal;font-weight:700;line-height:1.2;letter-spacing:0em;text-align:center;text-transform:none;color:rgba(0,0,0,1);}.e205-8.x-text .x-text-content-text-primary {margin:0 calc(0em * -1) 0 0;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:1.1em;font-style:normal;font-weight:700;line-height:1.2;letter-spacing:0em;text-align:left;text-transform:none;color:rgb(26,115,249);}.e205-12.x-text .x-text-content-text-primary {margin:0 calc(0em * -1) 0 0;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:1.1em;font-style:normal;font-weight:700;line-height:1.2;letter-spacing:0em;text-align:left;text-transform:none;color:rgb(104,106,110);}.e205-16.x-text .x-text-content-text-primary {margin:0 calc(0em * -1) 0 0;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:1.1em;font-style:normal;font-weight:700;line-height:1.2;letter-spacing:0em;text-align:left;text-transform:none;color:rgb(104,106,110);}.e205-21.x-text .x-text-content-text-primary {margin:0 calc(0em * -1) 0 0;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:1.1em;font-style:normal;font-weight:700;line-height:1.2;letter-spacing:0em;text-align:left;text-transform:none;color:rgb(104,106,110);}.e205-25.x-text .x-text-content-text-primary {margin:0 calc(0em * -1) 0 0;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:1.1em;font-style:normal;font-weight:700;line-height:1.2;letter-spacing:0em;text-align:left;text-transform:none;color:rgb(104,106,110);}.e205-27.x-text .x-text-content-text-primary {margin:0 calc(0em * -1) 0 0;font-family:inherit;font-size:1.1em;font-style:normal;font-weight:300;line-height:1.2;letter-spacing:0em;text-align:left;text-transform:none;color:rgb(33,37,41);}.e205-30.x-text .x-text-content-text-primary {margin:0 calc(0em * -1) 0 0;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:1.1em;font-style:normal;font-weight:700;line-height:1.2;letter-spacing:0em;text-align:left;text-transform:none;color:rgb(104,106,110);}.e205-32.x-text .x-text-content-text-primary {margin:0 calc(0em * -1) 0 0;font-family:inherit;font-size:1.1em;font-style:normal;font-weight:300;line-height:1.2;letter-spacing:0em;text-align:left;text-transform:none;color:rgb(33,37,41);}.e205-36.x-text .x-text-content-text-primary {margin:0 calc(0em * -1) 0 0;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:1.1em;font-style:normal;font-weight:700;line-height:1.2;letter-spacing:0em;text-align:left;text-transform:none;color:rgb(104,106,110);}.e205-40.x-text .x-text-content-text-primary {margin:0 calc(0em * -1) 0 0;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:1.1em;font-style:normal;font-weight:700;line-height:1.2;letter-spacing:0em;text-align:left;text-transform:none;color:rgb(104,106,110);}.e205-44.x-text .x-text-content-text-primary {margin:0 calc(0em * -1) 0 0;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:1.1em;font-style:normal;font-weight:700;line-height:1.2;letter-spacing:0em;text-align:left;text-transform:none;color:rgb(104,106,110);}.e205-7.x-image {max-width:330px;border-width:1px;border-style:solid;border-color:rgba(104,106,110,0.17);border-radius:10px;padding:15%;background-color:rgb(255,255,255);box-shadow:0em 0em 1em 0em rgba(104,106,110,0.17);}.e205-11.x-image {max-width:330px;border-width:1px;border-style:solid;border-color:rgba(104,106,110,0.17);border-radius:10px;padding:15%;background-color:rgb(255,255,255);}.e205-15.x-image {max-width:330px;border-width:1px;border-style:solid;border-color:rgba(104,106,110,0.17);border-radius:10px;padding:15%;background-color:rgb(255,255,255);}.e205-20.x-image {max-width:330px;border-width:1px;border-style:solid;border-color:rgba(104,106,110,0.17);border-radius:10px;padding:15%;background-color:rgb(255,255,255);}.e205-24.x-image {max-width:330px;border-width:1px;border-style:solid;border-color:rgba(104,106,110,0.17);border-radius:10px;padding:15%;background-color:rgb(255,255,255);}.e205-29.x-image {max-width:330px;border-width:1px;border-style:solid;border-color:rgba(104,106,110,0.17);border-radius:10px;padding:15%;background-color:rgb(255,255,255);}.e205-35.x-image {max-width:330px;border-width:1px;border-style:solid;border-color:rgba(104,106,110,0.17);border-radius:10px;padding:15%;background-color:rgb(255,255,255);}.e205-39.x-image {max-width:330px;border-width:1px;border-style:solid;border-color:rgba(104,106,110,0.17);border-radius:10px;padding:15%;background-color:rgb(255,255,255);}.e205-43.x-image {max-width:330px;border-width:1px;border-style:solid;border-color:rgba(104,106,110,0.17);border-radius:10px;padding:15%;background-color:rgb(255,255,255);}a.e205-7.x-image:hover {border-color:rgba(154,170,180,0);background-color:rgb(255,255,255);box-shadow:0em 0em 1em 0em transparent;}a.e205-11.x-image:hover {border-color:rgb(255,255,255);background-color:rgb(255,255,255);}a.e205-15.x-image:hover {border-color:rgb(255,255,255);background-color:rgb(255,255,255);}a.e205-20.x-image:hover {border-color:rgba(154,170,180,0);background-color:rgb(255,255,255);}a.e205-24.x-image:hover {border-color:rgba(154,170,180,0);background-color:rgb(255,255,255);}a.e205-29.x-image:hover {border-color:rgba(154,170,180,0);background-color:rgb(255,255,255);}a.e205-35.x-image:hover {border-color:rgba(154,170,180,0);background-color:rgb(255,255,255);}a.e205-39.x-image:hover {border-color:rgba(154,170,180,0);background-color:rgb(255,255,255);}a.e205-43.x-image:hover {border-color:rgba(154,170,180,0);background-color:rgb(255,255,255);}.e205-2.x-container {margin:0em auto 0em auto;background-color:transparent;z-index:1;}.e205-5.x-container {margin:0em auto 0em auto;padding:2em;background-color:transparent;z-index:1;}.e205-18.x-container {margin:0em auto 0em auto;padding:2em;background-color:transparent;z-index:1;}.e205-33.x-container {margin:0em auto 0em auto;padding:2em;background-color:transparent;z-index:1;}.e205-1.x-section {margin:0em;padding:45px 0px 45px 0px;background-color:transparent;z-index:1;}.e205-9.x-text {margin:0em;padding:0em;font-family:"Source Code Pro",monospace;font-size:1em;font-style:normal;font-weight:400;line-height:1.4;letter-spacing:0em;text-transform:none;color:rgba(0,0,0,1);background-color:transparent;}.e205-13.x-text {margin:0em;padding:0em;font-family:"Source Code Pro",monospace;font-size:1em;font-style:normal;font-weight:400;line-height:1.4;letter-spacing:0em;text-transform:none;color:rgba(0,0,0,1);background-color:transparent;}.e205-17.x-text {margin:0em;padding:0em;font-family:"Source Code Pro",monospace;font-size:1em;font-style:normal;font-weight:400;line-height:1.4;letter-spacing:0em;text-transform:none;color:rgba(0,0,0,1);background-color:transparent;}.e205-22.x-text {margin:0em;padding:0em;font-family:"Source Code Pro",monospace;font-size:1em;font-style:normal;font-weight:400;line-height:1.4;letter-spacing:0em;text-transform:none;color:rgba(0,0,0,1);background-color:transparent;}.e205-26.x-text {margin:0em;padding:0em;font-family:"Source Code Pro",monospace;font-size:1em;font-style:normal;font-weight:400;line-height:1.4;letter-spacing:0em;text-transform:none;color:rgba(0,0,0,1);background-color:transparent;}.e205-31.x-text {margin:0em;padding:0em;font-family:"Source Code Pro",monospace;font-size:1em;font-style:normal;font-weight:400;line-height:1.4;letter-spacing:0em;text-transform:none;color:rgba(0,0,0,1);background-color:transparent;}.e205-37.x-text {margin:0em;padding:0em;font-family:"Source Code Pro",monospace;font-size:1em;font-style:normal;font-weight:400;line-height:1.4;letter-spacing:0em;text-transform:none;color:rgba(0,0,0,1);background-color:transparent;}.e205-41.x-text {margin:0em;padding:0em;font-family:"Source Code Pro",monospace;font-size:1em;font-style:normal;font-weight:400;line-height:1.4;letter-spacing:0em;text-transform:none;color:rgba(0,0,0,1);background-color:transparent;}.e205-45.x-text {margin:0em;padding:0em;font-family:"Source Code Pro",monospace;font-size:1em;font-style:normal;font-weight:400;line-height:1.4;letter-spacing:0em;text-transform:none;color:rgba(0,0,0,1);background-color:transparent;}.e205-9.x-text > :first-child {margin-top:0;}.e205-13.x-text > :first-child {margin-top:0;}.e205-17.x-text > :first-child {margin-top:0;}.e205-22.x-text > :first-child {margin-top:0;}.e205-26.x-text > :first-child {margin-top:0;}.e205-31.x-text > :first-child {margin-top:0;}.e205-37.x-text > :first-child {margin-top:0;}.e205-41.x-text > :first-child {margin-top:0;}.e205-45.x-text > :first-child {margin-top:0;}.e205-9.x-text > :last-child {margin-bottom:0;}.e205-13.x-text > :last-child {margin-bottom:0;}.e205-17.x-text > :last-child {margin-bottom:0;}.e205-22.x-text > :last-child {margin-bottom:0;}.e205-26.x-text > :last-child {margin-bottom:0;}.e205-31.x-text > :last-child {margin-bottom:0;}.e205-37.x-text > :last-child {margin-bottom:0;}.e205-41.x-text > :last-child {margin-bottom:0;}.e205-45.x-text > :last-child {margin-bottom:0;}</style><div class="e196-131 cs-content x-global-block x-global-block-205">
+<div class="e205-1 x-section" id="tasks">
+    
+<div class="x-bg" aria-hidden="true">
+  <div class="x-bg-layer-lower-image" data-x-element="bg_layer" data-x-params='{"parallaxSize":"175%","parallaxDir":"h","parallaxRev":false}' style=" background-image: url(https://buildOMG.org/wp-content/uploads/dots.png); background-repeat: repeat; background-position: center; background-size: none;"></div>  <div class="x-bg-layer-upper-color" style=" background-color: rgba(255, 255, 255, 0);"></div></div>
+  
+<div class="e205-2 x-container max width">
+    
+<div class="e205-3 x-column x-sm x-1-1">
+    
+<div class="e205-4 x-text x-text-headline">
+  <div class="x-text-content"><div class="x-text-content-text"><h1 class="x-text-content-text-primary">OMG Community Bounties</h1></div></div></div>
+</div>
+</div>
+
+<div class="e205-5 x-container max width">
+    
+<div class="e205-6 x-column x-sm x-1-3">
+    
+<a class="e205-7 x-image" href="https://buildomg.org/bounty-01/">
+  <img alt="Image" src="https://buildomg.org/wp-content/uploads/omgtoken-square.png" width="250" height="250"></a>
+
+<div class="e205-8 x-text x-text-headline">
+  <div class="x-text-content"><div class="x-text-content-text"><p class="x-text-content-text-primary"><a href="https://buildOMG.org/bounty-01/">Bounty 01: Hello & Let's GO!</a></p></div></div></div>
+
+<div class="e205-9 x-text">
+  This is the first round of tasks for the OmiseGO community. All community members who complete these tasks will get an Unbank the Banked t-shirt and be entered into a draw to win 10 OMG tokens.</div>
+</div>
+
+<div class="e205-10 x-column x-sm x-1-3">
+    
+<a class="e205-11 x-image" href="https://github.com/omgcommunity/bounties/issues" target="_blank">
+  <img alt="Image" src="https://buildOMG.org/wp-content/uploads/buidl-3.png" width="250" height="220"></a>
+
+<div class="e205-12 x-text x-text-headline">
+  <div class="x-text-content"><div class="x-text-content-text"><p class="x-text-content-text-primary">Bounty 02: Coins & Tokens
+</p></div></div></div>
+
+<div class="e205-13 x-text">
+  This bounty has not been activated. Check back soon™. Or help us <a href="https://github.com/omgcommunity/bounties/" target="_blank">build it</a>.</div>
+</div>
+
+<div class="e205-14 x-column x-sm x-1-3">
+    
+<a class="e205-15 x-image" href="https://github.com/omgcommunity/bounties/issues" target="_blank">
+  <img alt="Image" src="https://buildOMG.org/wp-content/uploads/buidl-3.png" width="250" height="220"></a>
+
+<div class="e205-16 x-text x-text-headline">
+  <div class="x-text-content"><div class="x-text-content-text"><p class="x-text-content-text-primary">Bounty 03: Wallets & Keys</p></div></div></div>
+
+<div class="e205-17 x-text">
+  This bounty has not been activated. Check back soon™. Or help us <a href="https://github.com/omgcommunity/bounties/" target="_blank">build it</a>.</div>
+</div>
+</div>
+
+<div class="e205-18 x-container max width">
+    
+<div class="e205-19 x-column x-sm x-1-3">
+    
+<a class="e205-20 x-image" href="https://github.com/omgcommunity/bounties/issues" target="_blank">
+  <img alt="Image" src="https://buildOMG.org/wp-content/uploads/buidl-3.png" width="250" height="220"></a>
+
+<div class="e205-21 x-text x-text-headline">
+  <div class="x-text-content"><div class="x-text-content-text"><p class="x-text-content-text-primary">Bounty 04: Transactions & Transfers</p></div></div></div>
+
+<div class="e205-22 x-text">
+  This bounty has not been activated. Check back soon™. Or help us <a href="https://github.com/omgcommunity/bounties/" target="_blank">build it</a>.</div>
+</div>
+
+<div class="e205-23 x-column x-sm x-1-3">
+    
+<a class="e205-24 x-image" href="https://github.com/omgcommunity/bounties/issues" target="_blank">
+  <img alt="Image" src="https://buildOMG.org/wp-content/uploads/buidl-3.png" width="250" height="220"></a>
+
+<div class="e205-25 x-text x-text-headline">
+  <div class="x-text-content"><div class="x-text-content-text"><p class="x-text-content-text-primary">Bounty 05: Gas & Fees</p></div></div></div>
+
+<div class="e205-26 x-text">
+  This bounty has not been activated. Check back soon™. Or help us <a href="https://github.com/omgcommunity/bounties/" target="_blank">build it</a>.</div>
+
+<div class="e205-27 x-text x-text-headline">
+  <div class="x-text-content"><div class="x-text-content-text"><p class="x-text-content-text-primary"></p></div></div></div>
+</div>
+
+<div class="e205-28 x-column x-sm x-1-3">
+    
+<a class="e205-29 x-image" href="https://github.com/omgcommunity/bounties/issues" target="_blank">
+  <img alt="Image" src="https://buildOMG.org/wp-content/uploads/buidl-3.png" width="250" height="220"></a>
+
+<div class="e205-30 x-text x-text-headline">
+  <div class="x-text-content"><div class="x-text-content-text"><p class="x-text-content-text-primary">Bounty 06: DEXs & CEXs</p></div></div></div>
+
+<div class="e205-31 x-text">
+  This bounty has not been activated. Check back soon™. Or help us <a href="https://github.com/omgcommunity/bounties/" target="_blank">build it</a>.</div>
+
+<div class="e205-32 x-text x-text-headline">
+  <div class="x-text-content"><div class="x-text-content-text"><p class="x-text-content-text-primary"></p></div></div></div>
+</div>
+</div>
+
+<div class="e205-33 x-container max width">
+    
+<div class="e205-34 x-column x-sm x-1-3">
+    
+<a class="e205-35 x-image" href="https://github.com/omgcommunity/bounties/issues" target="_blank">
+  <img alt="Image" src="https://buildOMG.org/wp-content/uploads/buidl-3.png" width="250" height="220"></a>
+
+<div class="e205-36 x-text x-text-headline">
+  <div class="x-text-content"><div class="x-text-content-text"><p class="x-text-content-text-primary">Bounty 07: Blocks and Chains</p></div></div></div>
+
+<div class="e205-37 x-text">
+  This bounty has not been activated. Check back soon™. Or help us <a href="https://github.com/omgcommunity/bounties/" target="_blank">build it</a>.</div>
+</div>
+
+<div class="e205-38 x-column x-sm x-1-3">
+    
+<a class="e205-39 x-image" href="https://github.com/omgcommunity/bounties/issues" target="_blank">
+  <img alt="Image" src="https://buildOMG.org/wp-content/uploads/buidl-3.png" width="250" height="220"></a>
+
+<div class="e205-40 x-text x-text-headline">
+  <div class="x-text-content"><div class="x-text-content-text"><p class="x-text-content-text-primary">Bounty 08: ÐApps & DAOs</p></div></div></div>
+
+<div class="e205-41 x-text">
+  This bounty has not been activated. Check back soon™. Or help us <a href="https://github.com/omgcommunity/bounties/" target="_blank">build it</a>.</div>
+</div>
+
+<div class="e205-42 x-column x-sm x-1-3">
+    
+<a class="e205-43 x-image" href="https://github.com/omgcommunity/bounties/issues" target="_blank">
+  <img alt="Image" src="https://buildOMG.org/wp-content/uploads/buidl-3.png" width="250" height="220"></a>
+
+<div class="e205-44 x-text x-text-headline">
+  <div class="x-text-content"><div class="x-text-content-text"><p class="x-text-content-text-primary">Bounty 09: Security & Safety</p></div></div></div>
+
+<div class="e205-45 x-text">
+  This bounty has not been activated. Check back soon™. Or help us <a href="https://github.com/omgcommunity/bounties/" target="_blank">build it</a>.</div>
+</div>
+</div>
+  </div>
+<script></script></div>
+</div>
+</div>
+  </div>
+</div>
+  
+
+</div>
+
+      </article></div>
+
+
+    
+
+  <footer class="x-colophon" role="contentinfo"><div class="e35-1 x-bar x-bar-footer x-bar-h x-bar-relative  x-hide-xs x-bar-outer-spacers" data-x-bar='{"id":"e35-1","region":"footer","height":"5em"}'>
+
+    
+      <div class="e35-1 x-bar-content">
+      
+<div class="e35-2 x-bar-container">
+
+  
+  
+<a class="e35-3 x-anchor x-anchor-button" tabindex="0" href="https://twitter.com/buildOMG" target="_blank">
+
+  
+  <div class="x-anchor-content">
+    
+<span class="x-graphic" aria-hidden="true">
+
+  
+<i class="x-icon x-graphic-icon x-graphic-primary" aria-hidden="true" data-x-icon-b=""></i>
+
+<i class="x-icon x-graphic-icon x-graphic-secondary" aria-hidden="true" data-x-icon-b=""></i>
+
+</span>
+          </div>
+
+    
+  
+</a>
+
+<a class="e35-4 x-anchor x-anchor-button" tabindex="0" href="https://www.linkedin.com/company/omgnetwork" target="_blank">
+
+  
+  <div class="x-anchor-content">
+    
+<span class="x-graphic" aria-hidden="true">
+
+  
+<i class="x-icon x-graphic-icon x-graphic-primary" aria-hidden="true" data-x-icon-b=""></i>
+
+<i class="x-icon x-graphic-icon x-graphic-secondary" aria-hidden="true" data-x-icon-b=""></i>
+
+</span>
+          </div>
+
+    
+  
+</a>
+
+<a class="e35-5 x-anchor x-anchor-button" tabindex="0" href="https://github.com/omgnetwork" target="_blank">
+
+  
+  <div class="x-anchor-content">
+    
+<span class="x-graphic" aria-hidden="true">
+
+  
+<i class="x-icon x-graphic-icon x-graphic-primary" aria-hidden="true" data-x-icon-b=""></i>
+
+<i class="x-icon x-graphic-icon x-graphic-secondary" aria-hidden="true" data-x-icon-b=""></i>
+
+</span>
+          </div>
+
+    
+  
+</a>
+
+<a class="e35-6 x-anchor x-anchor-button" tabindex="0" href="https://www.reddit.com/r/omgnetwork/" target="_blank">
+
+  
+  <div class="x-anchor-content">
+    
+<span class="x-graphic" aria-hidden="true">
+
+  
+<i class="x-icon x-graphic-icon x-graphic-primary" aria-hidden="true" data-x-icon-b=""></i>
+
+<i class="x-icon x-graphic-icon x-graphic-secondary" aria-hidden="true" data-x-icon-b=""></i>
+
+</span>
+          </div>
+
+    
+  
+</a>
+
+<a class="e35-7 x-anchor x-anchor-button" tabindex="0" href="https://www.youtube.com/channel/UC-NfGRxTkJfVbFgyJoOxzCQ" target="_blank">
+
+  
+  <div class="x-anchor-content">
+    
+<span class="x-graphic" aria-hidden="true">
+
+  
+<i class="x-icon x-graphic-icon x-graphic-primary" aria-hidden="true" data-x-icon-b=""></i>
+
+<i class="x-icon x-graphic-icon x-graphic-secondary" aria-hidden="true" data-x-icon-b=""></i>
+
+</span>
+          </div>
+
+    
+  
+</a>
+
+</div>
+
+<div class="e35-8 x-bar-container">
+
+  
+  
+<div class="e35-9 x-text">
+  © 2019 OMG Network. All rights reserved.</div>
+
+</div>
+    </div>
+  
+</div>
+
+
+
+
+<div class="e35-10 x-bar x-bar-footer x-bar-h x-bar-relative  x-hide-lg x-hide-md x-hide-sm x-hide-xl x-bar-outer-spacers" data-x-bar='{"id":"e35-10","region":"footer","height":"5em"}'>
+
+    
+      <div class="e35-10 x-bar-content">
+      
+<div class="e35-11 x-bar-container">
+
+  
+  
+<a class="e35-12 x-anchor x-anchor-button" tabindex="0" href="https://twitter.com/omise_go" target="_blank">
+
+  
+  <div class="x-anchor-content">
+    
+<span class="x-graphic" aria-hidden="true">
+
+  
+<i class="x-icon x-graphic-icon x-graphic-primary" aria-hidden="true" data-x-icon-b=""></i>
+
+<i class="x-icon x-graphic-icon x-graphic-secondary" aria-hidden="true" data-x-icon-b=""></i>
+
+</span>
+          </div>
+
+    
+  
+</a>
+
+<a class="e35-13 x-anchor x-anchor-button" tabindex="0" href="https://www.linkedin.com/company/omisego" target="_blank">
+
+  
+  <div class="x-anchor-content">
+    
+<span class="x-graphic" aria-hidden="true">
+
+  
+<i class="x-icon x-graphic-icon x-graphic-primary" aria-hidden="true" data-x-icon-b=""></i>
+
+<i class="x-icon x-graphic-icon x-graphic-secondary" aria-hidden="true" data-x-icon-b=""></i>
+
+</span>
+          </div>
+
+    
+  
+</a>
+
+<a class="e35-14 x-anchor x-anchor-button" tabindex="0" href="https://github.com/omisego" target="_blank">
+
+  
+  <div class="x-anchor-content">
+    
+<span class="x-graphic" aria-hidden="true">
+
+  
+<i class="x-icon x-graphic-icon x-graphic-primary" aria-hidden="true" data-x-icon-b=""></i>
+
+<i class="x-icon x-graphic-icon x-graphic-secondary" aria-hidden="true" data-x-icon-b=""></i>
+
+</span>
+          </div>
+
+    
+  
+</a>
+
+<a class="e35-15 x-anchor x-anchor-button" tabindex="0" href="https://www.reddit.com/r/omise_go/" target="_blank">
+
+  
+  <div class="x-anchor-content">
+    
+<span class="x-graphic" aria-hidden="true">
+
+  
+<i class="x-icon x-graphic-icon x-graphic-primary" aria-hidden="true" data-x-icon-b=""></i>
+
+<i class="x-icon x-graphic-icon x-graphic-secondary" aria-hidden="true" data-x-icon-b=""></i>
+
+</span>
+          </div>
+
+    
+  
+</a>
+
+<a class="e35-16 x-anchor x-anchor-button" tabindex="0" href="https://www.youtube.com/channel/UC-NfGRxTkJfVbFgyJoOxzCQ" target="_blank">
+
+  
+  <div class="x-anchor-content">
+    
+<span class="x-graphic" aria-hidden="true">
+
+  
+<i class="x-icon x-graphic-icon x-graphic-primary" aria-hidden="true" data-x-icon-b=""></i>
+
+<i class="x-icon x-graphic-icon x-graphic-secondary" aria-hidden="true" data-x-icon-b=""></i>
+
+</span>
+          </div>
+
+    
+  
+</a>
+
+</div>
+
+<div class="e35-17 x-bar-container">
+
+  
+  
+<div class="e35-18 x-text">
+  © 2019 OmiseGO</div>
+
+<div class="e35-19 x-text">
+  All rights reserved</div>
+
+</div>
+    </div>
+  
+</div>
+
+
+
+    
+  </footer><div id="e210-4-modal" class="e210-4 x-modal  x-hide-lg x-hide-md x-hide-sm x-hide-xl x-hide-xs" role="dialog" tabindex="-1" data-x-toggleable="e210-4" data-x-scrollbar='{"suppressScrollX":true}' aria-hidden="true" aria-label="Modal">
+
+  <span class="x-modal-bg"></span>
+
+  <button class="x-modal-close x-modal-close-top x-modal-close-right" data-x-toggle-close="1" aria-label="Close Modal Content">
+    <span>×</span>
+  </button>
+
+  <div class="x-modal-content-outer">
+    <div class="x-modal-content-inner">
+      <div class="x-modal-content" role="document" aria-label="Modal Content">
+        <ul class="e210-4 x-menu x-menu-modal x-menu-layered x-current-layer" data-x-toggle-layered-root="1"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18" id="menu-item-18">
+<a class="e210-4 x-anchor x-anchor-menu-item" tabindex="0" href="#omg">
+
+  
+  <div class="x-anchor-content">
+        <div class="x-anchor-text"><span class="x-anchor-text-primary">Why OMG?</span></div>      </div>
+
+    
+<span class="x-particle x-anchor-particle-primary" data-x-particle="scale-x inside-t_l" aria-hidden="true">
+  <span></span>
+</span>
+
+<span class="x-particle x-anchor-particle-secondary" data-x-particle="scale-x inside-b_r" aria-hidden="true">
+  <span></span>
+</span>
+
+  
+</a>
+</li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-19" id="menu-item-19">
+<a class="e210-4 x-anchor x-anchor-menu-item" tabindex="0" href="#shortcut">
+
+  
+  <div class="x-anchor-content">
+        <div class="x-anchor-text"><span class="x-anchor-text-primary">Scale Ethereum</span></div>      </div>
+
+    
+<span class="x-particle x-anchor-particle-primary" data-x-particle="scale-x inside-t_l" aria-hidden="true">
+  <span></span>
+</span>
+
+<span class="x-particle x-anchor-particle-secondary" data-x-particle="scale-x inside-b_r" aria-hidden="true">
+  <span></span>
+</span>
+
+  
+</a>
+</li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-136" id="menu-item-136">
+<a class="e210-4 x-anchor x-anchor-menu-item" tabindex="0" href="#shortcut">
+
+  
+  <div class="x-anchor-content">
+        <div class="x-anchor-text"><span class="x-anchor-text-primary">Blog</span></div>      </div>
+
+    
+<span class="x-particle x-anchor-particle-primary" data-x-particle="scale-x inside-t_l" aria-hidden="true">
+  <span></span>
+</span>
+
+<span class="x-particle x-anchor-particle-secondary" data-x-particle="scale-x inside-b_r" aria-hidden="true">
+  <span></span>
+</span>
+
+  
+</a>
+</li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21" id="menu-item-21">
+<a class="e210-4 x-anchor x-anchor-menu-item" tabindex="0" href="#shortcut">
+
+  
+  <div class="x-anchor-content">
+        <div class="x-anchor-text"><span class="x-anchor-text-primary">Forum</span></div>      </div>
+
+    
+<span class="x-particle x-anchor-particle-primary" data-x-particle="scale-x inside-t_l" aria-hidden="true">
+  <span></span>
+</span>
+
+<span class="x-particle x-anchor-particle-secondary" data-x-particle="scale-x inside-b_r" aria-hidden="true">
+  <span></span>
+</span>
+
+  
+</a>
+</li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-135" id="menu-item-135">
+<a class="e210-4 x-anchor x-anchor-menu-item" tabindex="0" target="_blank" href="https://developer.omisego.co/">
+
+  
+  <div class="x-anchor-content">
+        <div class="x-anchor-text"><span class="x-anchor-text-primary">Developers</span></div>      </div>
+
+    
+<span class="x-particle x-anchor-particle-primary" data-x-particle="scale-x inside-t_l" aria-hidden="true">
+  <span></span>
+</span>
+
+<span class="x-particle x-anchor-particle-secondary" data-x-particle="scale-x inside-b_r" aria-hidden="true">
+  <span></span>
+</span>
+
+  
+</a>
+</li></ul></div>
+    </div>
+  </div>
+
+</div>
+
+<div id="e210-9-off-canvas" class="e210-9 x-off-canvas x-off-canvas-right" role="dialog" tabindex="-1" data-x-toggleable="e210-9" aria-hidden="true" aria-label="Off Canvas">
+
+  <span class="x-off-canvas-bg"></span>
+
+  <button class="x-off-canvas-close x-off-canvas-close-right" data-x-toggle-close="1" aria-label="Close Off Canvas Content">
+    <span>×</span>
+  </button>
+
+  <div class="x-off-canvas-content x-off-canvas-content-right" data-x-scrollbar='{"suppressScrollX":true}' role="document" aria-label="Off Canvas Content">
+    <div style="padding: 35px; line-height: 1.5; text-align: center; color: #000; background-color: #fff;">The shopping cart currently unavailable.</div>  </div>
+
+</div>
+
+<div id="e210-14-modal" class="e210-14 x-modal  x-hide-lg x-hide-md x-hide-sm x-hide-xl x-hide-xs" role="dialog" tabindex="-1" data-x-toggleable="e210-14" data-x-scrollbar='{"suppressScrollX":true}' aria-hidden="true" aria-label="Modal">
+
+  <span class="x-modal-bg"></span>
+
+  <button class="x-modal-close x-modal-close-top x-modal-close-right" data-x-toggle-close="1" aria-label="Close Modal Content">
+    <span>×</span>
+  </button>
+
+  <div class="x-modal-content-outer">
+    <div class="x-modal-content-inner">
+      <div class="x-modal-content" role="document" aria-label="Modal Content">
+        <ul class="e210-14 x-menu x-menu-modal x-menu-layered x-current-layer" data-x-toggle-layered-root="1"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18">
+<a class="e210-14 x-anchor x-anchor-menu-item" tabindex="0" href="#omg">
+
+  
+  <div class="x-anchor-content">
+        <div class="x-anchor-text"><span class="x-anchor-text-primary">Why OMG?</span></div>      </div>
+
+    
+<span class="x-particle x-anchor-particle-primary" data-x-particle="scale-x inside-t_l" aria-hidden="true">
+  <span></span>
+</span>
+
+<span class="x-particle x-anchor-particle-secondary" data-x-particle="scale-x inside-b_r" aria-hidden="true">
+  <span></span>
+</span>
+
+  
+</a>
+</li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-19">
+<a class="e210-14 x-anchor x-anchor-menu-item" tabindex="0" href="#shortcut">
+
+  
+  <div class="x-anchor-content">
+        <div class="x-anchor-text"><span class="x-anchor-text-primary">Scale Ethereum</span></div>      </div>
+
+    
+<span class="x-particle x-anchor-particle-primary" data-x-particle="scale-x inside-t_l" aria-hidden="true">
+  <span></span>
+</span>
+
+<span class="x-particle x-anchor-particle-secondary" data-x-particle="scale-x inside-b_r" aria-hidden="true">
+  <span></span>
+</span>
+
+  
+</a>
+</li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-136">
+<a class="e210-14 x-anchor x-anchor-menu-item" tabindex="0" href="#shortcut">
+
+  
+  <div class="x-anchor-content">
+        <div class="x-anchor-text"><span class="x-anchor-text-primary">Blog</span></div>      </div>
+
+    
+<span class="x-particle x-anchor-particle-primary" data-x-particle="scale-x inside-t_l" aria-hidden="true">
+  <span></span>
+</span>
+
+<span class="x-particle x-anchor-particle-secondary" data-x-particle="scale-x inside-b_r" aria-hidden="true">
+  <span></span>
+</span>
+
+  
+</a>
+</li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21">
+<a class="e210-14 x-anchor x-anchor-menu-item" tabindex="0" href="#shortcut">
+
+  
+  <div class="x-anchor-content">
+        <div class="x-anchor-text"><span class="x-anchor-text-primary">Forum</span></div>      </div>
+
+    
+<span class="x-particle x-anchor-particle-primary" data-x-particle="scale-x inside-t_l" aria-hidden="true">
+  <span></span>
+</span>
+
+<span class="x-particle x-anchor-particle-secondary" data-x-particle="scale-x inside-b_r" aria-hidden="true">
+  <span></span>
+</span>
+
+  
+</a>
+</li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-135">
+<a class="e210-14 x-anchor x-anchor-menu-item" tabindex="0" target="_blank" href="https://developer.omisego.co/">
+
+  
+  <div class="x-anchor-content">
+        <div class="x-anchor-text"><span class="x-anchor-text-primary">Developers</span></div>      </div>
+
+    
+<span class="x-particle x-anchor-particle-primary" data-x-particle="scale-x inside-t_l" aria-hidden="true">
+  <span></span>
+</span>
+
+<span class="x-particle x-anchor-particle-secondary" data-x-particle="scale-x inside-b_r" aria-hidden="true">
+  <span></span>
+</span>
+
+  
+</a>
+</li></ul></div>
+    </div>
+  </div>
+
+</div>
+
+<div id="e210-23-off-canvas" class="e210-23 x-off-canvas x-off-canvas-right" role="dialog" tabindex="-1" data-x-toggleable="e210-23" aria-hidden="true" aria-label="Off Canvas">
+
+  <span class="x-off-canvas-bg"></span>
+
+  <button class="x-off-canvas-close x-off-canvas-close-right" data-x-toggle-close="1" aria-label="Close Off Canvas Content">
+    <span>×</span>
+  </button>
+
+  <div class="x-off-canvas-content x-off-canvas-content-right" data-x-scrollbar='{"suppressScrollX":true}' role="document" aria-label="Off Canvas Content">
+    <div style="padding: 35px; line-height: 1.5; text-align: center; color: #000; background-color: #fff;">The shopping cart currently unavailable.</div>  </div>
+
+</div>
+
+<div id="e210-21-modal" class="e210-21 x-modal  x-hide-lg x-hide-md x-hide-xl" role="dialog" tabindex="-1" data-x-toggleable="e210-21" data-x-scrollbar='{"suppressScrollX":true}' aria-hidden="true" aria-label="Modal">
+
+  <span class="x-modal-bg"></span>
+
+  <button class="x-modal-close x-modal-close-top x-modal-close-right" data-x-toggle-close="1" aria-label="Close Modal Content">
+    <span>×</span>
+  </button>
+
+  <div class="x-modal-content-outer">
+    <div class="x-modal-content-inner">
+      <div class="x-modal-content" role="document" aria-label="Modal Content">
+        <ul class="e210-21 x-menu x-menu-modal x-menu-layered x-current-layer" data-x-toggle-layered-root="1"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18">
+<a class="e210-21 x-anchor x-anchor-menu-item" tabindex="0" href="#omg">
+
+  
+  <div class="x-anchor-content">
+        <div class="x-anchor-text"><span class="x-anchor-text-primary">Why OMG?</span></div>      </div>
+
+    
+  
+</a>
+</li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-19">
+<a class="e210-21 x-anchor x-anchor-menu-item" tabindex="0" href="#shortcut">
+
+  
+  <div class="x-anchor-content">
+        <div class="x-anchor-text"><span class="x-anchor-text-primary">Scale Ethereum</span></div>      </div>
+
+    
+  
+</a>
+</li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-136">
+<a class="e210-21 x-anchor x-anchor-menu-item" tabindex="0" href="#shortcut">
+
+  
+  <div class="x-anchor-content">
+        <div class="x-anchor-text"><span class="x-anchor-text-primary">Blog</span></div>      </div>
+
+    
+  
+</a>
+</li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21">
+<a class="e210-21 x-anchor x-anchor-menu-item" tabindex="0" href="#shortcut">
+
+  
+  <div class="x-anchor-content">
+        <div class="x-anchor-text"><span class="x-anchor-text-primary">Forum</span></div>      </div>
+
+    
+  
+</a>
+</li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-135">
+<a class="e210-21 x-anchor x-anchor-menu-item" tabindex="0" target="_blank" href="https://developer.omisego.co/">
+
+  
+  <div class="x-anchor-content">
+        <div class="x-anchor-text"><span class="x-anchor-text-primary">Developers</span></div>      </div>
+
+    
+  
+</a>
+</li></ul></div>
+    </div>
+  </div>
+
+</div>
+
+    </div> 
+
+    
+  </div> 
+
+    <script>
+      (function($){
+        if ( ! $ ) return;
+        var $gf = $('<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Poppins:700,700i,200,200i,100,100i,300,300i,400,400i,500,500i,600,600i,800,800i|Source+Code+Pro:400,300,700,200,900,600,500,200i,300i,400i,500i,600i,700i,900i&subset=latin,latin-ext&display=auto" type="text/css" media="all" data-x-google-fonts />');
+        $('head').append($gf);
+      })(jQuery);
+    </script><script type="text/javascript" src="https://blainejohnson.github.io/wp-content/themes/pro/cornerstone/assets/dist/js/site/cs.2803d6d.js"></script><script type="text/javascript" src="https://blainejohnson.github.io/wp-content/themes/pro/framework/dist/js/site/x.js"></script></body></html>
