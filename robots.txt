@@ -1,12 +1,7 @@
-# Pantheon's documentation on robots.txt: https://pantheon.io/docs/bots-and-indexing/
+
+# HP-START
+# Added by HardyPress to prevent search engines scanning admin site.
+# This block will be removed on the live site.
 User-agent: *
 Disallow: /
-
-User-agent: RavenCrawler
-User-agent: rogerbot
-User-agent: dotbot
-User-agent: SemrushBot
-User-agent: SemrushBot-SA
-User-agent: PowerMapper
-User-agent: Swiftbot
-Allow: /
+# HP-END
