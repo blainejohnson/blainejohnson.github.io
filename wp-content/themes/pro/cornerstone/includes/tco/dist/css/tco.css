@@ -74,7 +74,7 @@ label.tco-rc.tco-radio input:checked ~ .tco-form-control-indicator:before {conte
 .tco-btn-group-vertical .tco-btn:not(:last-child), .tco-btn-group-vertical a.tco-btn:not(:last-child), .tco-btn-group-vertical button.tco-btn:not(:last-child), .tco-btn-group-vertical input[type="submit"].tco-btn:not(:last-child) {margin-bottom: -1px;}
 .tco-btn.tco-btn-disabled, a.tco-btn.tco-btn-disabled, button.tco-btn.tco-btn-disabled, input[type="submit"].tco-btn.tco-btn-disabled {color: rgba(255,255,255,.75) !important;cursor: default;pointer-events: none;}
 .tco-wrap {padding: 1.5em;}
-.tco-wrap:before, .tco-wrap:after {content: " ";display: table;}
+.tco-wrap:before, .tco-wrap:after {content: " ";display: table;width: 0px;}
 .tco-wrap:after {clear: both;}
 .wp-admin:not(.rtl) .tco-wrap {margin: 0 0 0 -20px;}
 .wp-admin.rtl .tco-wrap {margin: 0 -20px 0 0;}
@@ -96,7 +96,7 @@ label.tco-rc.tco-radio input:checked ~ .tco-form-control-indicator:before {conte
 	.tco-wrap-settings .tco-sidebar {max-width: 23em;}}
 .tco-header {margin: 0 0 1.5em;}
 .tco-header-title {margin: 0;font-size: 2em;font-weight: 400;letter-spacing: -.035em;line-height: 1.3;}
-.tco-row:before, .tco-row:after {content: " ";display: table;}
+.tco-row:before, .tco-row:after {content: " ";display: table;width: 0px;}
 .tco-row:after {clear: both;}
 .tco-column {width: 100%;margin: 0 0 1.5em 0;}
 @media screen and (min-width: 1050px) {.wp-admin:not(.rtl) .tco-column:first-child:nth-last-child(2), .wp-admin:not(.rtl) .tco-column:first-child:nth-last-child(2) ~ .tco-column, .wp-admin:not(.rtl) .tco-column:first-child:nth-last-child(3), .wp-admin:not(.rtl) .tco-column:first-child:nth-last-child(3) ~ .tco-column {float: left;margin-right: 1.5em;}
@@ -154,7 +154,7 @@ p.tco-extensions-info {margin: 0;border-bottom: 1px solid rgba(0,0,0,.1);padding
 .wp-admin.rtl p.tco-extensions-info {text-align: right;}
 .tco-extensions {float: left;width: 100%;margin: 0 0 -1px;}
 .tco-extension {overflow: hidden;position: relative;float: left;width: 100%;margin: 0;border-bottom: 1px solid rgba(0,0,0,.1);padding: 0;text-align: center;background-color: #fff;z-index: 1;}
-.tco-extension:before, .tco-extension:after {content: " ";display: table;}
+.tco-extension:before, .tco-extension:after {content: " ";display: table;width: 0px;}
 .tco-extension:after {clear: both;}
 @media screen and (min-width: 1050px) {.tco-extension {width: 33.33333%;border-right: 1px solid rgba(0,0,0,.1);}
 	.tco-extension:nth-child(3n) {border-right: 0;}}
