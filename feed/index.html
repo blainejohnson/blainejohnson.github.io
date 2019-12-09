@@ -12,7 +12,7 @@
 	<atom:link href="https://blainejohnson.github.io/feed/" rel="self" type="application/rss+xml" />
 	<link>https://blainejohnson.github.io/</link>
 	<description>Scaling Ethereum with the OMG Network</description>
-	<lastBuildDate>Wed, 27 Nov 2019 15:21:21 +0700</lastBuildDate>
+	<lastBuildDate>Mon, 09 Dec 2019 10:00:41 +0700</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,107 +28,169 @@
 	<height>32</height>
 </image> 
 	<item>
-		<title>The art of UI/UX at OmiseGO</title>
-		<link>https://blainejohnson.github.io/the-art-of-ui-ux-at-omisego/</link>
+		<title>OMG Network Roundup for November 2019</title>
+		<link>https://blainejohnson.github.io/omisego-november-2019-roundup/</link>
 				<pubDate>Sat, 23 Nov 2019 10:58:02 +0000</pubDate>
 		<dc:creator><![CDATA[nebali]]></dc:creator>
 				<category><![CDATA[Uncategorized]]></category>
 
 		<guid isPermaLink="false">https://blainejohnson.github.io/?p=140</guid>
-				<description><![CDATA[Sitting down with OmiseGO UI/UX designer Tayanee Sriyotha “A blockchain or decentralized application can exist on its own, but without proper UX design, user research, and trust, the product cannot succeed in the market.” — Noei, UI/UX Designer at OmiseGO Today, we sit down with Tayanee Sriyotha, also known as Noei, UI/UX designer at OmiseGO to learn more about how ... <div><a href="https://blainejohnson.github.io/the-art-of-ui-ux-at-omisego/" class="more-link">Read More</a></div>]]></description>
-								<content:encoded><![CDATA[<script src="https://gist.github.com/kasima/0be903b91bdbe9032d15cb66ca70c867.js"></script>
-
-<div id="cs-content" class="cs-content" >
-<div class="e140-1 x-section" >
-      
+				<description><![CDATA[A short and sweet update this time as the audit process moves along. We’ve uncovered a slight hitch with the RLP implementation, and there’s a probability of multiple possible values resulting in the same RLP encoding. We’re investigating possible mitigations, including making our decoding much more strict. The child chain and watcher are getting an improved set of functional tests ... <div><a href="https://blainejohnson.github.io/omisego-november-2019-roundup/" class="more-link">Read More</a></div>]]></description>
+								<content:encoded><![CDATA[<div id="cs-content" class="cs-content" >
+<div class="e140-1 x-section" id="blog" >
+  
+<span class="x-separator-top-curve-in" style="top: 0px; height: 75px; color: rgb(255, 255, 255);" aria-hidden="true" >
+  <svg class="curve-top-in" style="fill: currentColor;" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 100 50" preserveAspectRatio="none"><path d="M0,0v50h50C22.4,50,0,0,0,0z"/><path d="M50,50h50V0C100,0,77.6,50,50,50z"/></svg></span>
+    
 <div class="e140-2 x-row x-container max width" >
   <div class="x-row-inner">
     
 <div class="e140-3 x-col" >
     
-<div class="e140-4 x-bar-content-area" >
-  <p id="5653" class="gi gj bx ar gk b gl gm gn go gp gq gr gs gt gu gv" data-selectable-paragraph="">Sitting down with OmiseGO UI/UX designer Tayanee Sriyotha</p>
+<div class="e140-4 x-text x-text-headline" >
+  <div class="x-text-content"><div class="x-text-content-text"><h1 class="x-text-content-text-primary">OMG Network November Roundup</h1><span class="x-text-content-text-subheadline">Summary of everything we've done at OMG Network this month</span></div></div></div>
 
-<figure class="gx gy gz ha hb hc dw dx paragraph-image">
-<div class="hd he ed hf ak">
-<div class="dw dx gw">
-<div class="hl r ed hm">
-<div class="hn r"><img class="lz od ef t u hi ak hr" width="4500" height="2400" role="presentation" src="https://miro.medium.com/max/4500/1*o3nnsXyvwutdfwK3GGI-AA.png" /></div>
+<div class="e140-5 x-text x-text-headline" >
+  <div class="x-text-content"><div class="x-text-content-text"><h1 class="x-text-content-text-primary">Written by: Enzo Belen</h1></div></div></div>
+
+<div class="e140-6 x-text x-text-headline" data-x-element="text_type" data-x-params="{&quot;strings&quot;:[&quot;pr@omg.network&quot;],&quot;type_speed&quot;:50,&quot;back_speed&quot;:50,&quot;start_delay&quot;:0,&quot;back_delay&quot;:1000,&quot;loop&quot;:false,&quot;show_cursor&quot;:true,&quot;cursor&quot;:&quot;|&quot;}" >
+  <div class="x-text-content"><div class="x-text-content-text"><h1 class="x-text-content-text-primary">Contact: <span class="x-text-typing"></span></h1></div></div></div>
+
+<hr class="e140-7 x-line" >
 </div>
+  </div>
+  </div>
+  </div>
+
+<div class="e140-8 x-section" id="blog" >
+      
+<div class="e140-9 x-row x-container max width" >
+  <div class="x-row-inner">
+    
+<div class="e140-10 x-col" >
+    
+<div class="e140-11 x-text x-text-headline" >
+  <div class="x-text-content"><div class="x-text-content-text"><h1 class="x-text-content-text-primary">OMG Network Technical Updates</h1></div></div></div>
+
+<div class="e140-12 x-text x-text-headline" >
+  <div class="x-text-content">
+<span class="x-graphic" aria-hidden="true" >
+
+  
+<i class="x-icon x-graphic-icon x-graphic-primary" aria-hidden="true" data-x-icon-b="&#xf37f;" ></i>
+
+</span>
+<div class="x-text-content-text"><h3 class="x-text-content-text-primary">Blockchain Feature Team</h3></div></div></div>
+
+<div class="e140-13 x-text" >
+  <p>A short and sweet update this time as the audit process moves along. We’ve uncovered a slight hitch with the RLP implementation, and there’s a probability of multiple possible values resulting in the same RLP encoding. We’re investigating possible mitigations, including making our decoding much more strict.</p>
+<p>The child chain and watcher are getting an improved set of functional tests which will raise our confidence in the upcoming resilience refactoring work. Our omg-js library is almost feature complete for the ALD contracts. After an intense period of pushing towards the audit, we’ve been taking a little bit of time to tidy things up in our repos and in our processes.</p></div>
+
+<div class="e140-14 x-text x-text-headline" >
+  <div class="x-text-content"><div class="x-text-content-text"><h1 class="x-text-content-text-primary">Events</h1></div></div></div>
+
+<div class="e140-15 x-text x-text-headline" >
+  <div class="x-text-content">
+<span class="x-graphic" aria-hidden="true" >
+
+  
+<i class="x-icon x-graphic-icon x-graphic-primary" aria-hidden="true" data-x-icon-b="&#xf20e;" ></i>
+
+</span>
+<div class="x-text-content-text"><h3 class="x-text-content-text-primary">Indonesia Blockchain Week</h3></div></div></div>
+
+<div class="e140-16 x-text" >
+  <div>
+<p>OmiseGO recently attended INBLOCKS 2019 and the first Indonesia Blockchain Week in Jakarta. The event focused on educating attendees about sustainable development and enabling enterprise-wide adoption of blockchain technology.</p>
+<p>There, Unnawut, our software engineer, gave a talk on “The relationship between enterprise adoption trust, and distrust.” His presentation revolved around the why trustlessness is important in blockchain and how distrusting the blockchain can contribute to enterprise-adoption.</p>
+
 </div>
-</div></figure>
-<blockquote class="hs ht hu">
-<p id="4850" class="gi gj bx hv gk b gl gm gn go gp gq gr gs gt gu gv" data-selectable-paragraph="">“A blockchain or decentralized application can exist on its own, but without proper UX design, user research, and trust, the product cannot succeed in the market.” — Noei, UI/UX Designer at OmiseGO</p>
+<div class="o-block__images-overflow"></div></div>
+
+<span class="e140-17 x-image" >
+  <img alt="Image" src="https://blainejohnson.github.io/wp-content/uploads/2019/11/tokocrypto.jpeg" width="1080" height="720" >
+</span>
+
+<blockquote class="e140-18 x-testimonial" >
+    <div class="x-testimonial-content">
+    <div class="x-testimonial-text">The relationship between enterprise adoption trust, and distrust</div>    <span class="x-testimonial-cite">
+<span class="x-graphic" aria-hidden="true" >
+
+  
+<i class="x-icon x-graphic-icon x-graphic-primary" aria-hidden="true" data-x-icon-s="&#xf144;" ></i>
+
+</span>
+<span class="x-testimonial-cite-content"><span class="x-testimonial-cite-text">Youtube</span>
+<span class="x-rating" >
+
+  <span class="x-rating-graphic" role="img" aria-label="3.5 / 5" >
+    
+<i class="x-icon" aria-hidden="true" data-x-icon-s="&#xf005;" ></i>
+
+<i class="x-icon" aria-hidden="true" data-x-icon-s="&#xf005;" ></i>
+
+<i class="x-icon" aria-hidden="true" data-x-icon-s="&#xf005;" ></i>
+
+<i class="x-icon" aria-hidden="true" data-x-icon-s="&#xf5c0;" ></i>
+
+<i class="x-icon" aria-hidden="true" data-x-icon-o="&#xf005;" ></i>
+  </span>
+
+  
+  
+</span>
+</span></span>  </div>
 </blockquote>
-<p id="9ae9" class="gi gj bx ar gk b gl gm gn go gp gq gr gs gt gu gv" data-selectable-paragraph="">Today, we sit down with Tayanee Sriyotha, also known as Noei, UI/UX designer at OmiseGO to learn more about how she uses design thinking principles and models to create a meaningful experience for OmiseGO users.</p>
-<p id="00cf" class="gi gj bx ar gk b gl gm gn go gp gq gr gs gt gu gv" data-selectable-paragraph="">Noei first learned about OmiseGO and the world of blockchain from a friend who works for a fin-tech company. As a designer, she quickly saw potential challenges those who are not used to the technology could face.</p>
-<p id="6afc" class="gi gj bx ar gk b gl gm gn go gp gq gr gs gt gu gv" data-selectable-paragraph="">It’s why she joined OmiseGO, knowing it was the perfect place to experiment with design solutions she hopes to see people adopt. As Noei learned the ropes she became captivated by OmiseGO’s openness, its willingness for trial and error, and an open mind.</p>
 
-<h1 id="1ebe" class="hw hx bx ar aq hy hz ia ib ic id ie if ig ih ii ij" data-selectable-paragraph="">Striking a Balance Between Logic and Aesthetic</h1>
-<p id="2322" class="gi gj bx ar gk b gl ik gn il gp im gr in gt io gv" data-selectable-paragraph="">During the design process, Noei splits her workflow into two main parts: logic, which takes up 70%, and aesthetics, which makes up the other 30%.</p>
-<p id="f967" class="gi gj bx ar gk b gl gm gn go gp gq gr gs gt gu gv" data-selectable-paragraph="">Her creative process typically starts with sketching the thumbnail. This is the ideation phase, so she doodles, tinkers, and adjusts until she believes she’s ‘got one’ that can be developed into a hi-res design.</p>
+<div class="e140-19 x-text" >
+  Overall, it was nice to see the Indonesian blockchain scene growing with the support of the government. We’re seeing this technology get off-ground, pursuing execution, and even penetration in several industries like agriculture and more. </div>
 
-<figure class="gx gy gz ha hb hc dw dx paragraph-image">
-<div class="hd he ed hf ak">
-<div class="dw dx ip">
-<div class="hl r ed hm">
-<div class="iq r"><img class="lz od ef t u hi ak hr" width="1600" height="1195" role="presentation" src="https://miro.medium.com/max/1600/1*YXY9DEr-QOl_cx3CAubyMw.png" /></div>
-</div>
-</div>
-</div></figure>
-<p id="a92f" class="gi gj bx ar gk b gl gm gn go gp gq gr gs gt gu gv" data-selectable-paragraph="">After touching base with her team for feedback, she’ll revise, polish, and touch up the design — fine-tuning things like size, gaps, and color shades. During this process, Noei’s favorite part is analyzing research data and turning it into a design strategy.</p>
-<p id="377f" class="gi gj bx ar gk b gl gm gn go gp gq gr gs gt gu gv" data-selectable-paragraph="">Noei typically uses the Human-Centered Design principle (HDC) as her go-to framework. But also refers to other methods such as mental model mapping or user-journey mapping to design for different subjects and scenarios.</p>
-<p id="e1e5" class="gi gj bx ar gk b gl gm gn go gp gq gr gs gt gu gv" data-selectable-paragraph="">Since design and user experience can be quite subjective, Noei’s definition of “design success” is when users can accomplish their goal(s) with ease.</p>
-<p id="23fd" class="gi gj bx ar gk b gl gm gn go gp gq gr gs gt gu gv" data-selectable-paragraph="">Noei relies on specific software to monitor and track success. So if she sees a spot where users cannot accomplish their intended goal, she and her team will investigate and make changes.</p>
+<div class="e140-20 x-text x-text-headline" >
+  <div class="x-text-content">
+<span class="x-graphic" aria-hidden="true" >
 
-<h1 id="7389" class="hw hx bx ar aq hy hz ia ib ic id ie if ig ih ii ij" data-selectable-paragraph="">The Path to Good UI/UX</h1>
-<figure class="gx gy gz ha hb hc dw dx paragraph-image">
-<div class="hd he ed hf ak">
-<div class="dw dx ir">
-<div class="hl r ed hm">
-<div class="is r"><img class="lz od ef t u hi ak hr" width="783" height="435" role="presentation" src="https://miro.medium.com/max/783/1*I4JOfYmvZIkok3DKUV17YA.png" /></div>
-</div>
-</div>
-</div></figure>
-<figure class="gx gy gz ha hb hc dw dx paragraph-image">
-<div class="hd he ed hf ak">
-<div class="dw dx iv">
-<div class="hl r ed hm">
-<div class="iw r"><img class="lz od ef t u hi ak hr" width="1582" height="433" role="presentation" src="https://miro.medium.com/max/1582/1*L8SwlrkTmUpksnBRunnt-g.png" /></div>
-</div>
-</div>
-</div></figure>
-<p id="bbb2" class="gi gj bx ar gk b gl gm gn go gp gq gr gs gt gu gv" data-selectable-paragraph="">According to Noei, most people might think UI/UX is just about making the interface pretty and usable.</p>
-<p id="1ec5" class="gi gj bx ar gk b gl gm gn go gp gq gr gs gt gu gv" data-selectable-paragraph="">But designing for aesthetics while maintaining usability is just the final touch. “Successful design takes various factors into account; I let the end-goal guide everything from user flow to layout, and more,” she adds.</p>
-<p id="3e78" class="gi gj bx ar gk b gl gm gn go gp gq gr gs gt gu gv" data-selectable-paragraph="">UI/UX is especially essential for the blockchain industry to encourage mainstream adoption. Good, intuitive design only includes what matters most to users. It helps them learn complex and unfamiliar concepts quickly.</p>
+  
+<i class="x-icon x-graphic-icon x-graphic-primary" aria-hidden="true" data-x-icon-l="&#xf77e;" ></i>
 
-<blockquote class="hs ht hu">
-<p id="5d9d" class="gi gj bx hv gk b gl gm gn go gp gq gr gs gt gu gv" data-selectable-paragraph="">“Good design is the difference between a steep or gentle learning curve. When people to stop noticing ‘how difficult the concept is’ they gain confidence using a decentralized product or service.”</p>
-</blockquote>
-<p id="6835" class="gi gj bx ar gk b gl gm gn go gp gq gr gs gt gu gv" data-selectable-paragraph="">A major obstacle from the designer’s point of view is understanding the technicalities behind the project. Before working on something for end-users, designers need to fully comprehend how the product or service works.</p>
-<p id="bac5" class="gi gj bx ar gk b gl gm gn go gp gq gr gs gt gu gv" data-selectable-paragraph="">This becomes even harder when the product is intended for advanced users like developers. Not only do designers need to understand the technical needs but also specific pain points, something Noei says “is way deeper than understanding consumer needs.”</p>
-<p id="32c4" class="gi gj bx ar gk b gl gm gn go gp gq gr gs gt gu gv" data-selectable-paragraph="">To overcome this, Noei relies on mental toughness and compassion. “You need to genuinely want to help people make things better even though it requires effort, this will stop you from quitting when things get tough.”</p>
+</span>
+<div class="x-text-content-text"><h3 class="x-text-content-text-primary">Blockchain Thailand Genesis</h3></div></div></div>
 
-<figure class="gx gy gz ha hb hc dw dx paragraph-image">
-<div class="hd he ed hf ak">
-<div class="dw dx ix">
-<div class="hl r ed hm">
-<div class="iy r"><img class="lz od ef t u hi ak hr" width="1312" height="1085" role="presentation" src="https://miro.medium.com/max/1312/1*i9ejnT8dx9psfm_x7ST39Q.jpeg" /></div>
-</div>
-</div>
-</div></figure>
-<p id="2b98" class="gi gj bx ar gk b gl gm gn go gp gq gr gs gt gu gv" data-selectable-paragraph="">“Talking to developers or those with technical backgrounds also helps connect the dots,” she adds. She might not get what they’re saying the first time, but over time, the vision and the path becomes clearer and clearer.</p>
+<div class="e140-21 x-text" >
+  The OMG Network Team also attended and sponsored Blockchain Thailand Genesis on the 30th of November, 2019. With over 3,000 attendees, multiple workshops, and 30+ speakers from the top blockchain firms of Thailand, the event was an encouraging look into the future of the technology.</div>
 
-<h1 id="135e" class="hw hx bx ar aq hy hz ia ib ic id ie if ig ih ii ij" data-selectable-paragraph="">A Message for Aspiring Designers</h1>
-<p id="3f91" class="gi gj bx ar gk b gl ik gn il gp im gr in gt io gv" data-selectable-paragraph="">Recently, Noei was involved with UNICEF Innovation’s SURGE, a<span> </span><a class="bf cn iz ja jb jc" target="_blank" rel="noopener" href="https://blog.omisego.network/omisego-and-surge-bkk-2019-d098d18263d3">hackathon</a><span> </span>where people come together to work on blockchain-based solutions to address global challenges.</p>
-<p id="50d0" class="gi gj bx ar gk b gl gm gn go gp gq gr gs gt gu gv" data-selectable-paragraph="">Representing OmiseGO, Noei helped educate participants about design for decentralized applications. Most attendees were local developers working on blockchain-based solutions and Noei’s framework was put to use to turn concepts into tangible products.</p>
-<p id="d9a2" class="gi gj bx ar gk b gl gm gn go gp gq gr gs gt gu gv" data-selectable-paragraph="">Last but not least, Noei has a message for aspiring designers: “If you’re interested in designing in the blockchain industry, the key is to keep learning whether it be about the technology itself or the behavior of people in the industry.”</p>
-<p id="576a" class="gi gj bx ar gk b gl gm gn go gp gq gr gs gt gu gv" data-selectable-paragraph="">“Things keep changing constantly. Be patient when you try to connect the dots. Another tip would be to try matching or mimicking existing experiences with new ones you foresee when you work on a design project. This will help users with an easier transition when doing unfamiliar tasks.”</p></div>
+<span class="e140-22 x-image" >
+  <img alt="Image" src="https://blainejohnson.github.io/wp-content/uploads/2019/11/genesis.jpg" width="600" height="400" >
+</span>
+
+<div class="e140-23 x-text" >
+  The OMG Network Team also attended and sponsored Blockchain Thailand Genesis on the 30th of November, 2019. With over 3,000 attendees, multiple workshops, and 30+ speakers from the top blockchain firms of Thailand, the event was an encouraging look into the future of the technology.</div>
+
+<div class="e140-24 x-text x-text-headline" >
+  <div class="x-text-content">
+<span class="x-graphic" aria-hidden="true" >
+
+  
+<i class="x-icon x-graphic-icon x-graphic-primary" aria-hidden="true" data-x-icon-l="&#xf073;" ></i>
+
+</span>
+<div class="x-text-content-text"><h3 class="x-text-content-text-primary">Upcoming Events</h3></div></div></div>
+
+<div class="e140-25 x-text" >
+  <ul>
+ 	<li><a href="http://www.hultprize.org/regionals/">Hult Prize, Manila - 2nd December</a></li>
+</ul></div>
+
+<hr class="e140-26 x-line" >
+
+<hr class="e140-27 x-line" >
+
+<hr class="e140-28 x-line" >
 </div>
   </div>
   </div>
   </div>
-</div>]]></content:encoded>
+</div>
+]]></content:encoded>
 										</item>
 	</channel>
 </rss>
