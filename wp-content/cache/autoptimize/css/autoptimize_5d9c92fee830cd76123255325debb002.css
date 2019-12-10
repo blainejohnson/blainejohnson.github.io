@@ -931,11 +931,11 @@ table tbody+tbody {border-top: 2px solid #ddd;}
 .x-btn-circle-wrap {display: inline-block;position: relative;}
 .x-btn-circle-wrap.x-btn-jumbo, .x-btn-circle-wrap.x-btn-x-large, .x-btn-circle-wrap.x-btn-large {margin: 0 0 21px;padding: 0;}
 .x-btn-circle-wrap:before, .x-btn-circle-wrap:after {content: "";position: relative;display: block;margin: 0 auto;background-repeat: no-repeat;background-position: center center;z-index: 1;}
-.x-btn-circle-wrap:before {top: 2px;width: 172px;height: 43px;background-image: url("https://cdn.shortpixel.ai/client/q_glossy,ret_img/https://PLACEHOLDER.wpsho/wp-content/themes/pro/framework/dist/css/site/stacks/../../../../img/global/btn-circle-top-small.png");background-size: 172px 43px;}
-.x-btn-circle-wrap:after {bottom: 2px;width: 190px;height: 43px;background-image: url("https://cdn.shortpixel.ai/client/q_glossy,ret_img/https://PLACEHOLDER.wpsho/wp-content/themes/pro/framework/dist/css/site/stacks/../../../../img/global/btn-circle-bottom-small.png");background-size: 190px 43px;}
+.x-btn-circle-wrap:before {top: 2px;width: 172px;height: 43px;background-image: url("https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://PLACEHOLDER.wpsho/wp-content/themes/pro/framework/dist/css/site/stacks/../../../../img/global/btn-circle-top-small.png");background-size: 172px 43px;}
+.x-btn-circle-wrap:after {bottom: 2px;width: 190px;height: 43px;background-image: url("https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://PLACEHOLDER.wpsho/wp-content/themes/pro/framework/dist/css/site/stacks/../../../../img/global/btn-circle-bottom-small.png");background-size: 190px 43px;}
 .x-btn-circle-wrap .x-btn {position: relative;z-index: 2;}
-@media (max-width:767px) {.x-btn-circle-wrap:before {top: 2px;width: 112px;height: 28px;background-image: url("https://cdn.shortpixel.ai/client/q_glossy,ret_img/https://PLACEHOLDER.wpsho/wp-content/themes/pro/framework/dist/css/site/stacks/../../../../img/global/btn-circle-top-small.png");background-size: 112px 28px;}
-	.x-btn-circle-wrap:after {bottom: 2px;width: 127px;height: 29px;background-image: url("https://cdn.shortpixel.ai/client/q_glossy,ret_img/https://PLACEHOLDER.wpsho/wp-content/themes/pro/framework/dist/css/site/stacks/../../../../img/global/btn-circle-bottom-small.png");background-size: 127px 29px;}}
+@media (max-width:767px) {.x-btn-circle-wrap:before {top: 2px;width: 112px;height: 28px;background-image: url("https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://PLACEHOLDER.wpsho/wp-content/themes/pro/framework/dist/css/site/stacks/../../../../img/global/btn-circle-top-small.png");background-size: 112px 28px;}
+	.x-btn-circle-wrap:after {bottom: 2px;width: 127px;height: 29px;background-image: url("https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://PLACEHOLDER.wpsho/wp-content/themes/pro/framework/dist/css/site/stacks/../../../../img/global/btn-circle-bottom-small.png");background-size: 127px 29px;}}
 .fade {opacity: 0;transition: opacity .3s ease;}
 .fade.in {opacity: 1;}
 .collapse {display: none;}
@@ -1131,7 +1131,7 @@ table tbody+tbody {border-top: 2px solid #ddd;}
 .x-portfolio-filter {display: inline-block;}
 .ilightbox-overlay.light {background: #fff;}
 .ilightbox-loader.light {-webkit-box-shadow: 0px 0px 85px #dacffc,0px 0px 85px #dacffc;box-shadow: 0px 0px 85px #dacffc,0px 0px 85px #dacffc;}
-.ilightbox-loader.light div {background: #fff url("https://cdn.shortpixel.ai/client/q_glossy,ret_img/https://PLACEHOLDER.wpsho/wp-content/themes/pro/framework/dist/css/site/stacks/../../../../img/global/ilightbox-preloader-light.gif") no-repeat center;}
+.ilightbox-loader.light div {background: #fff url("https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://PLACEHOLDER.wpsho/wp-content/themes/pro/framework/dist/css/site/stacks/../../../../img/global/ilightbox-preloader-light.gif") no-repeat center;}
 .ilightbox-holder.light {padding: 1%;background: #fff;border-radius: 2px;-webkit-box-shadow: 0 0 15px rgba(0,0,0,.25);box-shadow: 0 0 15px rgba(0,0,0,.25);}
 .ilightbox-holder.light .ilightbox-container .ilightbox-caption {background-color: #fff;}
 .ilightbox-holder.light .ilightbox-container .ilightbox-social {border-radius: 2px;}
